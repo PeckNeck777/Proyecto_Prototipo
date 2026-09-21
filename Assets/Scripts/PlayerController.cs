@@ -38,6 +38,8 @@ public class PlayerController : MonoBehaviour
 
         controller = GetComponent<CharacterController>();
 
+
+        //Carga la partida, se verifica con una bool ya que la escena cargada y la pos solo deberian de verse al cargar partida, no en cada cambio de escena
         if (firstLoad)
         {
             CargaraPartida();
@@ -45,6 +47,9 @@ public class PlayerController : MonoBehaviour
             firstLoad = false;
         }
 
+        //Si se guardo el juego al cerrar, guarda la posicion, si tiene la key, mueve al player a esa posicion en la escena guardada
+        //El unico error que hay es que no he encontrado la forma que solo pase a la hora de cargar la partida
+        //Ya que solo en el start me funciona pero carga la posicion en cada escena
         if (PlayerPrefs.HasKey("PosicionX"))
         {
             float x = PlayerPrefs.GetFloat("PosicionX");
@@ -56,6 +61,8 @@ public class PlayerController : MonoBehaviour
             transform.position = savedPosition;
             controller.enabled = true;
         }
+
+
 
     }
 
@@ -112,6 +119,9 @@ public class PlayerController : MonoBehaviour
 
     public void CargaraPartida()
     {
+        //Verifica si ya hay una escena guardada, de ser asi compara si la escena desde donde se da play es igual a la escena guardada
+        //Si es diferente se carga la escena
+        //Si es igual, no pasa nada
         if (PlayerPrefs.HasKey("EscenaActu"))
         {
             int escenaGuardada = PlayerPrefs.GetInt("EscenaActu");

@@ -10,14 +10,15 @@ public class SODatosJugador : ScriptableObject
 
     public void Guardado()
     {
-        PlayerPrefs.SetFloat("PosicionX", posJug.x);
-        PlayerPrefs.SetFloat("PosicionY", posJug.y);
-        PlayerPrefs.SetFloat("PosicionZ", posJug.z);
+        ////Se guarda la posicion en X, Y y Z del player y el numero de escena dentro del build
+        //PlayerPrefs.SetFloat("PosicionX", posJug.x);
+        //PlayerPrefs.SetFloat("PosicionY", posJug.y);
+        //PlayerPrefs.SetFloat("PosicionZ", posJug.z);
 
 
-        int currentEscena = SceneManager.GetActiveScene().buildIndex;
-        PlayerPrefs.SetInt("EscenaActu", currentEscena);
+        //int currentEscena = SceneManager.GetActiveScene().buildIndex;
+        //PlayerPrefs.SetInt("EscenaActu", currentEscena);
 
-        PlayerPrefs.Save();
+        //PlayerPrefs.Save();
     }
 }

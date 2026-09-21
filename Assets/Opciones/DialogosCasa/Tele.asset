@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99b96955713899042b7125f4d9066314, type: 3}
+  m_Name: Tele
+  m_EditorClassIdentifier: Assembly-CSharp::Dialog
+  conversation:
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: .
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "Una caja que hace a\xF1os parec\xEDa m\xE1gica\u2026 "
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "Ahora el 96% del tiempo la dejo encendida para que el apartamento no me
+      mate con su silencio\u2026 "
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "El otro 4% si la uso para ver la misma pel\xEDcula una y otra vez "
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "Maldita hiperfijaci\xF3n\u2026 ojala me hubiera dado \xFAtil "
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "Pero me tengo que fumar 2 horas y media de un hombre que fue picado por
+      una ara\xF1a "
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: ...
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: Igual no me quejo.
+  opciones:
+  - {fileID: 11400000, guid: e5cfbd9c726dd9f4990f0cb3c83ef4a6, type: 2}
+  - {fileID: 11400000, guid: 76a6daf018e44da45ba4c2df3e2965ea, type: 2}

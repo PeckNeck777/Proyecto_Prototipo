@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99b96955713899042b7125f4d9066314, type: 3}
+  m_Name: Encender
+  m_EditorClassIdentifier: Assembly-CSharp::Dialog
+  conversation:
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: ...
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: Cierto, no prende.
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "Porque a mi cerebro se le ocurri\xF3 la brillante idea de no recordarse..."
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "\xA1POR M\xC1S DE 2 A\xD1OS!"
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: ...
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "Alg\xFAn d\xEDa lo har\xE9."
+  opciones: []
