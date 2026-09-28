@@ -15,9 +15,6 @@ MonoBehaviour:
   conversation:
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
-    line: .
-  - spaeker: Mizuki
-    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Tengo que ir al trabajo\u2026 "
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}

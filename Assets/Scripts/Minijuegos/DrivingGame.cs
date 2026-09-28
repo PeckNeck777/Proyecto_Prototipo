@@ -1,6 +1,12 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+/*
+ * Juego de manejo, se puede cambiar de carriles
+ * Evitando los obstaculos
+ * Si se llega al final, que es cuando el tiempo se acaba, gana el juego
+ * Si se choca 3 veces con el obstaculo pierde
+ */
 public class DrivingGame : Minigame
 {
     [Header("Informacion")]

@@ -1,5 +1,12 @@
 using UnityEngine;
 
+
+/*
+ *   Script estático que administra el estado persistente de la partida. 
+ *   Almacena métricas emocionales, progreso del día actual, la escena activa y la posición 
+ *   del jugador en el mapa.
+ * 
+ */
 public static class Stats 
 {
     static int energiaMental = 100;
@@ -11,8 +18,8 @@ public static class Stats
     static Vector3 posJugador;
 
     static public int EM { get => energiaMental; set => energiaMental = (Mathf.Clamp(value, 0, 100)); }
-    static public int MS { get => energiaMental; set => mascaraSocial = (Mathf.Clamp(value, 0, 100)); }
-    static public int VV { get => energiaMental; set => voluntadDeVivir = (Mathf.Clamp(value, 0, 100)); }
+    static public int MS { get => mascaraSocial; set => mascaraSocial = (Mathf.Clamp(value, 0, 100)); }
+    static public int VV { get => voluntadDeVivir; set => voluntadDeVivir = (Mathf.Clamp(value, 0, 100)); }
 
     static public int EscenaActual { get => escenaActual; set => escenaActual = value; }
 

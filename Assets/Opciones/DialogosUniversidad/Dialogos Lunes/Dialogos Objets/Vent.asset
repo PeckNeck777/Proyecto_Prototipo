@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99b96955713899042b7125f4d9066314, type: 3}
+  m_Name: Vent
+  m_EditorClassIdentifier: Assembly-CSharp::Dialog
+  conversation:
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: .
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "Una rejilla de ventilaci\xF3n... "
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "Gracias a mi infancia sin supervisi\xF3n y a la pandemia, siento que solo
+      hay dos opciones aqu\xED:"
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: 'O robots infantiles asesinos que se meten por los conductos... o un impostor
+      del espacio. '
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "Aunque prefiero que sean los robots. \xA1Quisiera abrazar al conejo sin
+      cara! "
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: 'Aunque eso me cueste la vida... '
+  opciones: []

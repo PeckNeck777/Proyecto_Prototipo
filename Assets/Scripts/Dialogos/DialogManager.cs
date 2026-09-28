@@ -3,6 +3,16 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
+
+/*
+ *   BootDialogManager: Recibe y configura la conversación activa desde el 'DialogStarter', 
+ *   reseteando contadores y listas internas.
+ *   Ciclo Update: Procesa la entrada del jugador para avanzar entre las 'Unidades' del arreglo. 
+ *   Al finalizar el arreglo, evalúa si existen decisiones pendientes.
+ *   Control de Opciones (ShowOptions / ClearOptions): Instancia dinámicamente prefabs de botones 
+ *   en el contenedor UI ('optionParent'), asigna eventos de clic mediante listeners y limpia 
+ *   la memoria de opciones al continuar el flujo.
+ */
 public class DialogManager : MonoBehaviour
 {
     public static DialogManager instance;

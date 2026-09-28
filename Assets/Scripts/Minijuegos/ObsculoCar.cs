@@ -1,5 +1,8 @@
 using UnityEngine;
 
+/*
+ * Obstaculos del minijuego del carro
+ */
 public class ObsculoCar : MonoBehaviour
 {
     [SerializeField] DrivingGame game;

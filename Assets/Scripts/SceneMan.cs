@@ -1,6 +1,9 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/*
+ * Se encarga del cambio de escenas
+ */
 public class SceneMan : MonoBehaviour
 {
     public static SceneMan instance;

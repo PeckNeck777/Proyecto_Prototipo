@@ -2,6 +2,15 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+
+/*
+ * Para el minijuego de cubrirse de las distracciones
+ * Indica el movimiento del player, si se presiona 
+ * Para la izquierda, este se movera a la izquierda
+ * Y lo mismo con la derecha
+ * Si no esta bajo la "sombrilla" se empieza a llenar un medidor
+ * El cual si llega a 100 pierde el minijuego
+ */
 public class CubrirsePlay : MonoBehaviour
 {
     [SerializeField] private float speed;

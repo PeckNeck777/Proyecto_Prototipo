@@ -2,12 +2,16 @@ using NUnit.Framework;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Se encarga de se los placers de los objetos del minijuego
+ * de drag and drop
+ * Si se suelta en su area designada de cuenta como objeto puesto
+ * de lo contrario no pasa nada
+ */
 public class ObjectPlacer : MonoBehaviour
 {
-    //public enum ObjectTag { Importante, Basura, Utiles}
     [SerializeField] private string tagObj;
     [SerializeField] DragAndDropGame game;
-    //[SerializeField] private List<ObjectTag> objectsApproved;
 
     private void OnTriggerEnter(Collider other)
     {

@@ -1,5 +1,10 @@
 using UnityEngine;
 
+/*
+ * Juego de recoger reportes por la oficina
+ * Cuando se recogen los informes necesarios, se pueden entregar
+ * Solo cuando se entregan se completa el minijuego
+ */
 public class PickupGame : Minigame
 {
     [Header("Informacion")]
@@ -20,7 +25,7 @@ public class PickupGame : Minigame
     {
         if (numInformes == informesNes)
         {
-            JuegoCompletado(true);
+            JuegoCompletadoTrabajo(true);
         }
     }
 }

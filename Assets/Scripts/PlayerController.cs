@@ -2,6 +2,10 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
+/*
+ * Encargado de mover al player, velocidad y se encarga de ver
+ * los daots guardados (Temporal, en un futuro se va a remover)
+ */
 public class PlayerController : MonoBehaviour
 {
     InputAction move;

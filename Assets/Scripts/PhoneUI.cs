@@ -3,6 +3,14 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+
+/*
+ * UI que se encarga de mostrar los stats del jugador
+ * AL presionar una tecla de activa la pantalla y hay 3 botones
+ * Que sirven para intercambiar la información que muestra ala UI
+ * Para que el jugador tenga un mejor acceso a dicha informacion
+ */
+
 public class PhoneUI : MonoBehaviour
 {
     [Header("Info Telefono")]

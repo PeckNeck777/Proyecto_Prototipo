@@ -2,6 +2,10 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+/*
+ * Del minijuego de precision, mueve el objeto que debe de ser capturado
+ * de un lado a otro, al llegar a un lado se cambia de direccion
+ */
 public class OldManConsMove : MonoBehaviour
 {
     [SerializeField] private float speed = 100f;

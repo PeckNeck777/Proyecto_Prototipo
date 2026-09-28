@@ -3,6 +3,13 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+/*
+ * Juego de drag and drop, se encarga de verificar que todos los
+ * objetos se hayan puesto dentro de su area designada
+ * spawena los objetos de manera aleatoria en puntos aleatorios
+ * y cuando se acaba el tiempo, si ya no hay objetos gana
+ * de lo contrario se pierde
+ */
 public class DragAndDropGame : Minigame
 {
     [Header("Informacion")]

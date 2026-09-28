@@ -1,5 +1,13 @@
+using TMPro;
 using UnityEngine;
 
+/*
+ * Encargado del minijuego de presionar los botones en orden
+ * Si se presionan bien de acuerdo a su ID
+ * Se ponen verdes y si se llegan a presionar todos se completa
+ * De presionar el boton incorrecto, se reinicia el progreso y 
+ * todos vuelven a su color original
+ */
 public class ButtonGame : Minigame
 {
     [Header("Informacion")]
@@ -7,6 +15,7 @@ public class ButtonGame : Minigame
     [SerializeField] private int totalID;
 
     [SerializeField] private GameObject[] todosLosBotones;
+    [SerializeField] private TMP_Text textoMini;
 
     public override void StartGame()
     {
@@ -16,6 +25,7 @@ public class ButtonGame : Minigame
         numID = 1;
 
         ResetearBotones();
+        textoMini.text = "Presiona los botones con click en orden!";
     }
 
 
@@ -34,7 +44,7 @@ public class ButtonGame : Minigame
 
         if(numID >= totalID)
         {
-            JuegoCompletado(true);
+            JuegoCompletadoTrabajo(true);
             foreach (GameObject btn in todosLosBotones)
             {
                 if (btn != null)

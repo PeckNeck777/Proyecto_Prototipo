@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99b96955713899042b7125f4d9066314, type: 3}
+  m_Name: Molle_Dia 1
+  m_EditorClassIdentifier: Assembly-CSharp::Dialog
+  conversation:
+  - spaeker: Molle S. Ight
+    portrait: {fileID: 21300000, guid: 3fd2f0cd1a99de6438154747a456671d, type: 3}
+    line: "\xBFMizuki? \xBFE-est\xE1s ah\xED? Sabes\u2026 que no puedo ver bien\u2026
+      si no est\xE1s cerca\u2026"
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "Tranquila peque\xF1a b\xFAho\u2026 estoy aqu\xED"
+  - spaeker: Molle S. Ight
+    portrait: {fileID: 21300000, guid: 3fd2f0cd1a99de6438154747a456671d, type: 3}
+    line: "\xA1Bien! A-ahora respecto al proyecto\u2026 ya casi terminamos\u2026
+      \xBFEstas lista? "
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "Mol\u2026 voltea, estoy detr\xE1s tuya\u2026 "
+  - spaeker: Molle S. Ight
+    portrait: {fileID: 21300000, guid: 3fd2f0cd1a99de6438154747a456671d, type: 3}
+    line: "\xA1Ah! P-perd\xF3n\u2026 es dif\xEDcil de ver bien\u2026 en general\u2026 "
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: " \xBFComo mierdas no est\xE1s ciega al 100%? "
+  - spaeker: Molle S. Ight
+    portrait: {fileID: 21300000, guid: 3fd2f0cd1a99de6438154747a456671d, type: 3}
+    line: "Lo s\xE9\u2026 el doctor me dijo que era milagro que a\xFAn pudiera ver\u2026"
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "Mejor pensemos en el proyecto\u2026"
+  opciones: []

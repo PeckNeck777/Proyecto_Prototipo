@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99b96955713899042b7125f4d9066314, type: 3}
+  m_Name: Alicia_Dia 3
+  m_EditorClassIdentifier: Assembly-CSharp::Dialog
+  conversation:
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "Nos pasa a todos\u2026 pero me alegra saber que me esperabas"
+  - spaeker: Alicia Heimer
+    portrait: {fileID: 21300000, guid: b2ced09482f683442aa936118b4fdf59, type: 3}
+    line: " \xBFTe esperaba? No recuerdo haberlo hecho\u2026 pero si te hace feliz\u2026
+      \xA1Por mi esta bien! "
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "(Carajo\u2026 siempre es muy tierna)"
+  opciones: []

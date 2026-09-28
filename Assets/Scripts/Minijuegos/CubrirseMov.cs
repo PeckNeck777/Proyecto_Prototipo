@@ -1,6 +1,11 @@
 using UnityEngine;
 using UnityEngine.Rendering;
 
+/*
+ * Se encarga de mover la "sombrilla"
+ * del juego de cubrirse. cada cierto tiempo se mueve
+ *  de manera aleatoria de izquierda a derecha
+ */
 public class CubrirseMov : MonoBehaviour
 {
     [SerializeField] private Transform puntoA;

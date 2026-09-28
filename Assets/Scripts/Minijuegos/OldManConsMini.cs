@@ -1,5 +1,13 @@
+using TMPro;
 using UnityEngine;
 
+
+/*
+ * Minijuego de precision, llamado Old Man Consequences por que de ahi se tuvo la referencia
+ * El jugador debera de "capturar" ciertos objetos dentro de un area especifica
+ * Hasta capturar cierta cantidad se gana el minijuego
+ * Con cada captura, el area cambia de posicion
+ */
 public class OldManConsMini : Minigame
 {
     [Header("Informacion")]
@@ -7,6 +15,7 @@ public class OldManConsMini : Minigame
     [SerializeField] private int cososPorCapturar;
     [SerializeField] private GameObject areaChidoLira;
     [SerializeField] private GameObject[] spawners;
+    [SerializeField] private TMP_Text textoMini;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public override void StartGame()
@@ -14,6 +23,8 @@ public class OldManConsMini : Minigame
         base.StartGame();
 
         cososCapturados = 0;
+
+        textoMini.text = "Presiona C cuando el cuadro este dentro del area, un total de 5 veces basta!";
     }
 
 
@@ -24,7 +35,7 @@ public class OldManConsMini : Minigame
 
         if(cososCapturados >= cososPorCapturar)
         {
-            JuegoCompletado(true);
+            JuegoCompletadoTrabajo(true);
         }
         else
         {

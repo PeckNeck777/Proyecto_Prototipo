@@ -1,5 +1,11 @@
 using UnityEngine;
 
+
+/*
+ * Le da movilidad a los reportes del minijuego
+ * Para que salgan a distinta velocidad
+ * Dentro de un punto random de un circulo
+ */
 public class ReportAsteroids : MonoBehaviour
 {
     [SerializeField] private int minVel;
@@ -29,5 +35,13 @@ public class ReportAsteroids : MonoBehaviour
         game.ReporteDestruido();
 
         Destroy(gameObject);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.CompareTag("Obstaculo"))
+        {
+            Destroy(gameObject);
+        }
     }
 }

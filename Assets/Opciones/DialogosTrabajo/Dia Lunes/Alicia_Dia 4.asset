@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99b96955713899042b7125f4d9066314, type: 3}
+  m_Name: Alicia_Dia 4
+  m_EditorClassIdentifier: Assembly-CSharp::Dialog
+  conversation:
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "Oye\u2026 \xBFEst\xE1s libre el fin de semana? Podr\xEDas ir a casa\u2026
+      a pasar el rato\u2026"
+  - spaeker: Alicia Heimer
+    portrait: {fileID: 21300000, guid: b2ced09482f683442aa936118b4fdf59, type: 3}
+    line: "\xBFEste fin de semana? \xBFComo una cita? Claro\u2026 no veo por qu\xE9
+      no\u2026 "
+  - spaeker: Alicia Heimer
+    portrait: {fileID: 21300000, guid: b2ced09482f683442aa936118b4fdf59, type: 3}
+    line: ...
+  - spaeker: Alicia Heimer
+    portrait: {fileID: 21300000, guid: b2ced09482f683442aa936118b4fdf59, type: 3}
+    line: "\xBFQu\xE9 era lo que quer\xEDas hacer? "
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "No te preocupes\u2026 ma\xF1ana te vuelvo a recordar\u2026 "
+  - spaeker: Alicia Heimer
+    portrait: {fileID: 21300000, guid: b2ced09482f683442aa936118b4fdf59, type: 3}
+    line: "\xBFRecordarme de que?  "
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "No, nada\u2026 tranquila. "
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: -Ruta bloqueada por ser el prototipo-
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: -Solo ten paciencia ;)-
+  opciones: []

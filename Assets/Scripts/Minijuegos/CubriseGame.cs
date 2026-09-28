@@ -1,6 +1,13 @@
 using TMPro;
 using UnityEngine;
 
+/*
+ * Encargado del minijuego de cubrirse
+ * Muestra el timer en pantalla de cuanto tiempo
+ * Debe de aguantar el jugador
+ * si llega a 0 gana, si el porcentaje de descubierto 
+ * llega a 100 pierde
+ */
 public class CubriseGame : Minigame
 {
 

@@ -1,8 +1,13 @@
 using UnityEngine;
 using System.IO;
-using UnityEngine.Rendering;
-using UnityEditor.Rendering;
 using System.Collections.Generic;
+
+/*
+ *   Administrador de guardar los datos. Verifica la presencia de datos 
+ *   guardados para cargarlos al iniciar, de lo contrario, inicializa el estado por defecto 
+ *   y permite serializar las estadísticas actuales durante el juego.
+ */
+
 public class SaveSystemo : MonoBehaviour
 {
     public static SaveSystemo instance { get; private set; }

@@ -1,6 +1,19 @@
 using System;
 using UnityEngine;
 
+
+
+/*
+ * Script base para la gestión y control de minijuegos. Define la estructura de datos 
+ * y las reglas de victoria/derrota para las distintas modalidades del juego:
+ * 
+ * 1. Minijuegos de Aguante (Supervivencia): El jugador debe resistir durante un tiempo 
+ *    determinado hasta que el contador llegue a cero para completar con éxito el desafío.
+ * 2. Minijuegos de Cumplir Objetivos: El jugador cuenta con un tiempo límite para realizar 
+ *    una acción específica. Si el tiempo expira antes de completar el objetivo, se considera derrota.
+ * 3. Minijuegos de Intentos (Fallos limitados): El jugador debe ejecutar acciones de precisión. 
+ *    Cada error resta un intento disponible; al llegar a 0 intentos, el minijuego finaliza en derrota.
+ */
 public abstract class Minigame : MonoBehaviour
 {
     public enum MinigameType { Tiempo, Intentos, Cumplir }
@@ -79,6 +92,23 @@ public abstract class Minigame : MonoBehaviour
         }
 
    
+        Complete(ganacion);
+
+    }
+
+    public void JuegoCompletadoTrabajo(bool ganacion)
+    {
+        if (!juegoActi) return;
+
+        juegoActi = false;
+        juegoTerminado = ganacion;
+
+        if (ganacion)
+        {
+            UIManager.instance.WinTrabajo();
+            Debug.Log("¡Ganaste el minijuego!");
+        }
+
         Complete(ganacion);
 
     }

@@ -1,6 +1,14 @@
 using TMPro;
 using UnityEngine;
 
+/*
+ * Juego del aro, se tiene un tiempo especifico para
+ * completar el escenario
+ * cuando se completa, se activa otro diferente y si se completan 3
+ * se gana el minijuego
+ * De equivocarse 3 veces en el juego (Que es chocar con los bordes)
+ * O se acaba el tiempo y no se ha llegado al final, se pierde
+ */
 public class AroGame : Minigame
 {
     [Header("Información")]

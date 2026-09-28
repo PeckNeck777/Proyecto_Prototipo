@@ -1,6 +1,13 @@
 using TMPro;
 using UnityEngine;
 
+/*
+ * Minijuego del kahoot, se presenta una serie de preguntas
+ * Estas son incorrectas si no se selecciona la respuesta correcta
+ * o si se acaba el tiempo
+ * al responder 10 preguntas correctas se gana el minijuego
+ * Si se tienen 3 intentos fallidos, se pierde el minijuego
+ */
 public class KahotGame : Minigame
 {
     [Header("Informacion")]

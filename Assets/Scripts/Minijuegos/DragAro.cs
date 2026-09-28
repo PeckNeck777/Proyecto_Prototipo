@@ -1,5 +1,11 @@
 using UnityEngine;
 
+
+/*
+ * Objeto que se arrastra en el juego del aro
+ * Si llega al final se completa el escenario, si no llega
+ * Si se choca con el obstaculo, se pierde un intento
+ */
 public class DragAro : DragObjects
 {
     [SerializeField] private AroGame game;

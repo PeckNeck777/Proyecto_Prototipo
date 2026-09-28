@@ -1,16 +1,42 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+/*
+ * Son las tareas fisicas dentro del juego para el ambiente del trabajo
+ * Al interactuar con ellas, se activa la tarea y cuando se completa el minijuego se desactiva
+ */
 public class TareaFisica : MonoBehaviour
 {
     [SerializeField] Minigame tareaita;
     [SerializeField] Camera camCQ;
+    [SerializeField] GameObject objetungo;
     bool completa = false;
+    bool canMakeTarea = false;
     InputAction interactuar;
 
     private void Start()
     {
         interactuar = InputSystem.actions.FindAction("Interact");
+    }
+
+    private void Update()
+    {
+        if(canMakeTarea)
+        {
+            if (interactuar != null && interactuar.WasPressedThisFrame())
+            {
+
+                if (Camera.main != null)
+                {
+                    camCQ.gameObject.SetActive(true);
+                }
+
+                tareaita.gameObject.SetActive(true);
+                objetungo.SetActive(true);
+                UIManager.instance.DesTextoTarea();
+                tareaita.StartGame();
+            }
+        }
     }
     public void OnEnable()
     {
@@ -30,23 +56,23 @@ public class TareaFisica : MonoBehaviour
         
     }
 
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if (completa) return;
 
         if (other.gameObject.CompareTag("Player"))
         {
-            if (interactuar != null && interactuar.WasPressedThisFrame())
-            {
-                
-                if(Camera.main != null)
-                {
-                    camCQ.gameObject.SetActive(true);
-                }
+            UIManager.instance.TextoTarea();
+            canMakeTarea = true;
+        }
+    }
 
-                tareaita.gameObject.SetActive(true);
-                tareaita.StartGame();
-            }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            UIManager.instance.DesTextoTarea();
+            canMakeTarea = false;
         }
     }
 
@@ -66,6 +92,7 @@ public class TareaFisica : MonoBehaviour
             {
                 gameObject.SetActive(false);
                 TareaManager.instance.TareaaFiniquitada();
+                UIManager.instance.DesTextoTarea();
             }
         }
     }

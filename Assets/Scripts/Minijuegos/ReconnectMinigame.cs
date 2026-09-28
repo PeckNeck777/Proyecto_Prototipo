@@ -1,15 +1,21 @@
+using TMPro;
 using UnityEngine;
 
+
+/*
+ * Para reconectar los routers, si se reconectan 2 se gana el mini juego
+ */
 public class ReconnectMinigame : Minigame
 {
     [Header("Informacion")]
     [SerializeField] private float progreso;
     [SerializeField] private int routersReconectados = 0;
+    [SerializeField] private TMP_Text textoMini;
     public override void StartGame()
     {
         base.StartGame();
         progreso = 0f;
-        routersReconectados = 0;
+        textoMini.text = "Mueve el router un tiempo cercano al punto de señal, el color debe indicarte bien donde anda, dejalo un rato ahi y mantenlo el movimiento!";
     }
 
     public float AumentarProgreso(float progre)
@@ -28,7 +34,7 @@ public class ReconnectMinigame : Minigame
 
         if(routersReconectados >= 2)
         {
-            JuegoCompletado(true);
+            JuegoCompletadoTrabajo(true);
         }
     }
 }

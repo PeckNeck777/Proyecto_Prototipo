@@ -1,6 +1,12 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+/*
+ *   Componente 'Trigger' asignado a objetos interactuables en el entorno 3D. 
+ *   Detecta la proximidad del jugador, muestra el prompt de interacción e inyecta el 'Dialog' 
+ *   correspondiente al gestor principal.
+ */
+
 [RequireComponent (typeof(Collider))]
 public class DialogStarter : MonoBehaviour
 {
@@ -30,6 +36,7 @@ public class DialogStarter : MonoBehaviour
                 if (interact.WasPressedThisFrame())
                 {
                     DialogManager.instance.BootDialogManager(dialog);
+                    canIntercat = false;
                 }
 
             }

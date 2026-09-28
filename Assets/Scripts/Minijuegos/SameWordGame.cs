@@ -1,6 +1,15 @@
 using TMPro;
 using UnityEngine;
 
+/*
+ * Juego de ingresar la misma palabra
+ * Se tienen 3 rondas, cada una conformada por una minironda
+ * Las minirondas son la dificultad que se tiene
+ * Al completar 5 mini rondas se pasa de ronda
+ * Cada minironda tiene ciertos intentos, si se fallan en todos se pierde
+ * Si se ganan las 3 rondas se gana el juego
+ * Cada minironda da una palabra aleatoria que el jugador debe ingresar en un tiempo determinado
+ */
 public class SameWordGame : Minigame
 {
     [Header("Informacion")]

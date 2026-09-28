@@ -1,6 +1,12 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
 
+/*
+ * Encargado del minijuego de destruir reportes
+ * hereda de minigame y spawnea tambien los reportes destruir cada cierto tiempo
+ * y cuando de destruye cierta cantidad, se completa
+ */
 public class AmongUsAsteroids : Minigame
 {
     [Header("Informacion")]
@@ -8,6 +14,7 @@ public class AmongUsAsteroids : Minigame
     [SerializeField] private int reportesADestruir = 20;
     [SerializeField] private Transform[] puntosSpawn;
     [SerializeField] private GameObject reportePrefab;
+    [SerializeField] private TMP_Text textoMini;
 
     private int reportes;
 
@@ -21,7 +28,14 @@ public class AmongUsAsteroids : Minigame
 
         StartCoroutine(SpawnAsteroides());
 
+        textoMini.text = "Dale click a los reportes para romperlos. Reportes destruidos: " + reportes + "/" + reportesADestruir;
 
+
+    }
+
+    protected override void Update()
+    {
+        textoMini.text = "Dale click a los reportes para romperlos. Reportes destruidos: " + reportes + "/" + reportesADestruir;
     }
 
     
@@ -49,7 +63,7 @@ public class AmongUsAsteroids : Minigame
         
         if(reportes >= reportesADestruir)
         {
-            JuegoCompletado(true);
+            JuegoCompletadoTrabajo(true);
         }
         
     }

@@ -1,5 +1,10 @@
 using UnityEngine;
 
+
+/*
+ *   Define el texto de la opción de respuesta e invoca 
+ *   escuchadores (listeners) dinámicos en los botones generados.
+ */
 public abstract class SOOpcion : ScriptableObject
 {
     [SerializeField]
