@@ -19,6 +19,14 @@ public class SceneMan : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+
+            if(Stats.EstadoAlicia == EstadosAlicia.NoHablado)
+            {
+                Stats.EstadoAlicia = EstadosAlicia.NoInvitada;
+                Debug.Log("Se perdio la oportunidad");
+            }
+
+            SaveSystemo.instance.SaveStats();   
             ChangeScene(sceneNum);
         }
     }

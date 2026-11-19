@@ -13,11 +13,15 @@ public class DialogStarter : MonoBehaviour
     [SerializeField]
     Dialog dialog;
     [SerializeField]
+    Dialog dialogSecond;
+    [SerializeField]
     Sprite portrait;
     [SerializeField]
     string speakr;
     [SerializeField]
     bool canIntercat = false;
+    [SerializeField]
+    bool interacted = false;
 
     InputAction interact;
 
@@ -35,8 +39,17 @@ public class DialogStarter : MonoBehaviour
             {
                 if (interact.WasPressedThisFrame())
                 {
-                    DialogManager.instance.BootDialogManager(dialog);
+                    if(interacted && dialogSecond != null)
+                    {
+                        DialogManager.instance.BootDialogManager(dialogSecond);
+                    }
+                    else
+                    {
+                        DialogManager.instance.BootDialogManager(dialog);
+                        interacted = true;
+                    }
                     canIntercat = false;
+
                 }
 
             }

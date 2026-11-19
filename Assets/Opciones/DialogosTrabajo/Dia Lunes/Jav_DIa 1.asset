@@ -13,24 +13,34 @@ MonoBehaviour:
   m_Name: Jav_DIa 1
   m_EditorClassIdentifier: Assembly-CSharp::Dialog
   conversation:
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: ...
+    voiceClip: {fileID: 0}
   - spaeker: Jav A.B. Ean
     portrait: {fileID: 21300000, guid: 09e6cc846509ec146bae7b516b5c5301, type: 3}
     line: "Mizuki\u2026 tan demacrada como siempre y tan solitaria \xBFYa tuviste
       el valor de hablarle a Alicia o ca\xEDste en la locura y no tienes el valor?"
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "\xBFYo? Desde hace tiempo que ca\xED\u2026 pero al menos no tengo engendros
       a los que llam\xF3 hijos poniendo m\xE1s carga"
+    voiceClip: {fileID: 0}
   - spaeker: Jav A.B. Ean
     portrait: {fileID: 21300000, guid: 09e6cc846509ec146bae7b516b5c5301, type: 3}
     line: "No son cargas\u2026"
+    voiceClip: {fileID: 0}
   - spaeker: Jav A.B. Ean
     portrait: {fileID: 21300000, guid: 09e6cc846509ec146bae7b516b5c5301, type: 3}
     line: "Pero touch\xE9\u2026  "
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Es bueno verte, imb\xE9cil "
+    voiceClip: {fileID: 0}
   - spaeker: Jav A.B. Ean
     portrait: {fileID: 21300000, guid: 09e6cc846509ec146bae7b516b5c5301, type: 3}
     line: "Tu tambi\xE9n, idiota"
+    voiceClip: {fileID: 0}
   opciones: []

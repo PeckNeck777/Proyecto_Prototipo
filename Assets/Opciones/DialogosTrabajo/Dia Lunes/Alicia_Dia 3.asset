@@ -16,11 +16,14 @@ MonoBehaviour:
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Nos pasa a todos\u2026 pero me alegra saber que me esperabas"
+    voiceClip: {fileID: 8300000, guid: 1d1f59ed3c9b21c4e83870a4b9e04af7, type: 3}
   - spaeker: Alicia Heimer
     portrait: {fileID: 21300000, guid: b2ced09482f683442aa936118b4fdf59, type: 3}
     line: " \xBFTe esperaba? No recuerdo haberlo hecho\u2026 pero si te hace feliz\u2026
       \xA1Por mi esta bien! "
+    voiceClip: {fileID: 8300000, guid: c9972550b6d39584189248f59016e0d0, type: 3}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "(Carajo\u2026 siempre es muy tierna)"
+    voiceClip: {fileID: 0}
   opciones: []

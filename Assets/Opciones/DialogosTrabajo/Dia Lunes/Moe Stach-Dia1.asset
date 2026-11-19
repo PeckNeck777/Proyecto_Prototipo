@@ -13,17 +13,24 @@ MonoBehaviour:
   m_Name: Moe Stach-Dia1
   m_EditorClassIdentifier: Assembly-CSharp::Dialog
   conversation:
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: ...
+    voiceClip: {fileID: 0}
   - spaeker: Mr. Moe Stache
     portrait: {fileID: 21300000, guid: 751767ecee2ed2f4abc11f4b5945dcdc, type: 3}
     line: "Se\xF1orita Mizuki, es una dicha tenerla aqu\xED tan temprano. Espero
       que tenga listo el reporte que le ped\xED"
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "(Si tan solo supiera que estoy a nada de renunciar para no tener que ver
       ese bigote tan desagradable\u2026) "
+    voiceClip: {fileID: 0}
   - spaeker: Mr. Moe Stache
     portrait: {fileID: 21300000, guid: 751767ecee2ed2f4abc11f4b5945dcdc, type: 3}
     line: "\xBFSe\xF1orita Mizuki? \xBFEstas escuchando?"
+    voiceClip: {fileID: 0}
   opciones:
   - {fileID: 11400000, guid: 123174ad05247204db5a610e130d06a6, type: 2}
   - {fileID: 11400000, guid: aa1cfb55b66eee34b918e96434a3ba31, type: 2}

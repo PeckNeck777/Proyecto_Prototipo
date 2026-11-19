@@ -15,20 +15,25 @@ MonoBehaviour:
   conversation:
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
-    line: .
+    line: ...
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Luego de tantos a\xF1os sin socializar... y de que mi cerebro relacione
       cosas que no tienen nada que ver..."
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Cada vez que veo una flor, me pregunto si la podr\xEDa usar en un apocalipsis
       zombi para defender mi casa."
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Por supuesto que no pasar\xEDa... pero tirarle una sand\xEDa en la cabeza
       a un zombi... "
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "\xA1Ser\xEDa una puta locura!"
+    voiceClip: {fileID: 0}
   opciones: []

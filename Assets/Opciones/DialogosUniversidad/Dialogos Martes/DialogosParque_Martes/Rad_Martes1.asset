@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99b96955713899042b7125f4d9066314, type: 3}
+  m_Name: Rad_Martes1
+  m_EditorClassIdentifier: Assembly-CSharp::Dialog
+  conversation:
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: ...
+    voiceClip: {fileID: 0}
+  - spaeker: Rad Ical
+    portrait: {fileID: 21300000, guid: f211dba18cd442d43a8c41d075475660, type: 3}
+    line: ...
+    voiceClip: {fileID: 0}
+  - spaeker: Rad Ical
+    portrait: {fileID: 21300000, guid: f211dba18cd442d43a8c41d075475660, type: 3}
+    line: "\xBFEse \xE1rbol acaba de parpadear... o esa es Mizuki? "
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: Soy yo, Rad. Un gusto verte.
+    voiceClip: {fileID: 0}
+  - spaeker: Rad Ical
+    portrait: {fileID: 21300000, guid: f211dba18cd442d43a8c41d075475660, type: 3}
+    line: "Woah... Mizu... te ves muy en HD el d\xEDa de hoy, hermana. "
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "Y t\xFA sigues apestando a marihuana... Pens\xE9 que la ibas a dejar este
+      mes. "
+    voiceClip: {fileID: 0}
+  - spaeker: Rad Ical
+    portrait: {fileID: 21300000, guid: f211dba18cd442d43a8c41d075475660, type: 3}
+    line: "No se deja a una compa\xF1era de vida, Mizu... Esto me da la vibraci\xF3n
+      exacta para mi truco de patineta. "
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "\xBFEl kickflip que llevas intentando desde el a\xF1o pasado? "
+    voiceClip: {fileID: 0}
+  - spaeker: Rad Ical
+    portrait: {fileID: 21300000, guid: f211dba18cd442d43a8c41d075475660, type: 3}
+    line: "Ese mismo... Siento que ya casi entro en sinton\xEDa con la tabla. Es
+      un proceso cu\xE1ntico. "
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "Tu mam\xE1 mat\xE1ndose cuidando las flores del parque y t\xFA fum\xE1ndote
+      cuanto matorral encuentras. Es ir\xF3nico. "
+    voiceClip: {fileID: 0}
+  - spaeker: Rad Ical
+    portrait: {fileID: 21300000, guid: f211dba18cd442d43a8c41d075475660, type: 3}
+    line: "Es como... si la fotos\xEDntesis fuera de la familia... \xC9pico, hermana...
+      \xC9pico..."
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "Ese mismo... Siento que ya casi entro en sinton\xEDa con la tabla. Es
+      un proceso cu\xE1ntico. "
+    voiceClip: {fileID: 0}
+  opciones: []

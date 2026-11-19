@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99b96955713899042b7125f4d9066314, type: 3}
+  m_Name: Wor_Dialogo
+  m_EditorClassIdentifier: Assembly-CSharp::Dialog
+  conversation:
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: ...
+    voiceClip: {fileID: 0}
+  - spaeker: Mr. Wor Kaholic
+    portrait: {fileID: 21300000, guid: 0519b52476c18964a84f9614c3e74de4, type: 3}
+    line: "(Hablando por tel\xE9fono) S\xED, entiendo\u2026 Pero necesito esos documentos
+      antes del viernes. No, no podemos retrasarlo otra vez\u2026"
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "(Susurrando) Hola, pap\xE1\u2026"
+    voiceClip: {fileID: 0}
+  - spaeker: Mr. Wor Kaholic
+    portrait: {fileID: 21300000, guid: 0519b52476c18964a84f9614c3e74de4, type: 3}
+    line: "(La mira, sonr\xEDe y levanta una mano para saludarla, pero contin\xFAa
+      hablando)."
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "(Carajo\u2026 olvid\xE9 que siempre est\xE1 ocupado)."
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: ...
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "(Suspira) Supongo que deber\xEDa irme\u2026"
+    voiceClip: {fileID: 0}
+  - spaeker: Mr. Wor Kaholic
+    portrait: {fileID: 21300000, guid: 0519b52476c18964a84f9614c3e74de4, type: 3}
+    line: "(Le hace una se\xF1al para que espere un momento, sin dejar de hablar)."
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "(Mira hacia otro lado) \u2026"
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "(Aun as\xED\u2026 quisiera que alguna vez dejara esa llamada de lado para
+      hablar conmigo)"
+    voiceClip: {fileID: 0}
+  opciones: []

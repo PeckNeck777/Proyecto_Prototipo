@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99b96955713899042b7125f4d9066314, type: 3}
+  m_Name: Jendar_Dialogo_Miercoles 1
+  m_EditorClassIdentifier: Assembly-CSharp::Dialog
+  conversation:
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: ...
+    voiceClip: {fileID: 0}
+  - spaeker: Jendar Less
+    portrait: {fileID: 21300000, guid: 50f22e9babf93c846be501466ed38614, type: 3}
+    line: ...
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "\xBFTodo bien? Te noto m\xE1s callado que de costumbre\u2026 "
+    voiceClip: {fileID: 0}
+  - spaeker: Jendar Less
+    portrait: {fileID: 21300000, guid: 50f22e9babf93c846be501466ed38614, type: 3}
+    line: "Ah\u2026 no solo estoy distra\xEDda.. "
+    voiceClip: {fileID: 0}
+  opciones:
+  - {fileID: 11400000, guid: 2de6c24809dcb22419c9cba7c2901890, type: 2}
+  - {fileID: 11400000, guid: 3132f50883a18754b93f3b136af92ecc, type: 2}

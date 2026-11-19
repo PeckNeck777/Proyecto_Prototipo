@@ -15,8 +15,12 @@ public class Unidad
     Sprite portrait;
     [SerializeField]
     string line;
+    [SerializeField]
+    AudioClip voiceClip;
 
     public string Speaker { get {  return spaeker; } }
     public Sprite Portrait { get { return portrait; } }
     public string Line { get { return line; } }    
+
+    public AudioClip VoiceClip { get { return voiceClip; } }
 }

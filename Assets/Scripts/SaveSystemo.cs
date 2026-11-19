@@ -1,6 +1,6 @@
 using UnityEngine;
-using System.IO;
-using System.Collections.Generic;
+using UnityEngine.SceneManagement;
+using static Stats;
 
 /*
  *   Administrador de guardar los datos. Verifica la presencia de datos 
@@ -26,6 +26,10 @@ public class SaveSystemo : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        SeeStats();
+    }
     private void OnApplicationQuit()
     {
         SaveStats();
@@ -38,31 +42,65 @@ public class SaveSystemo : MonoBehaviour
 
     public void SaveStats()
     {
-        PlayerPrefs.SetInt("EnergiaMental", Stats.EM);
-        PlayerPrefs.SetInt("MascaraSocial", Stats.MS);
-        PlayerPrefs.SetInt("VoluntadDeVivir", Stats.VV);
-        PlayerPrefs.SetInt("EscenaActiva", Stats.EscenaActual);
-        PlayerPrefs.SetInt("DiaActual", Stats.DiaActual);
+        //Guardar stats
+        PlayerPrefs.SetInt(Stats.KMascaraSocial, Stats.MS);
+        PlayerPrefs.SetInt(Stats.KEnergiaMental, Stats.EM);
+        PlayerPrefs.SetInt(Stats.KVoluntadDeVivir, Stats.VV);
 
-        PlayerPrefs.SetFloat("PosicionX", Stats.PosJugador.x);
-        PlayerPrefs.SetFloat("PosicionY", Stats.PosJugador.y);
-        PlayerPrefs.SetFloat("PosicionZ", Stats.PosJugador.z);
+        /*Guardar escena que cargo
+         * !!Guardar el juego solo se hace cuando entramos a una nueva escena
+         */
 
-        PlayerPrefs.Save();
+        PlayerPrefs.SetInt(Stats.KHabloAlicia, (int)Stats.EstadoAlicia);
+        PlayerPrefs.SetString(Stats.KUltimaEscena, SceneManager.GetActiveScene().name);
+
     }
 
+    /*Permite cargar toda la data del Jogo al presionar un boton de load
+      Si queremos mostrar info desde el menu del juego, tipo DeltaruneDeidad
+      Hay que modificar el metodo para que cargue la data relevante y la muestre en un objeto de perfil
+      Luego al presionar el boton de continuar carga la escena mediante otro metodo
+    */
     public void LoadStats()
     {
-        PlayerPrefs.GetInt("EnergiaMental", 100);
-        PlayerPrefs.GetInt("MascaraSocial", 100);
-        PlayerPrefs.GetInt("VoluntadDeVivir", 100);
-        PlayerPrefs.GetInt("EscenaActiva", 1);
-        PlayerPrefs.GetInt("DiaActual", 1);
+        if (PlayerPrefs.HasKey(Stats.KUltimaEscena))
+        {
+            if(PlayerPrefs.GetString(Stats.KUltimaEscena) != "")
+            {
+                Stats.MS = PlayerPrefs.GetInt(Stats.KMascaraSocial);
+                Stats.EM = PlayerPrefs.GetInt(Stats.KEnergiaMental);
+                Stats.VV = PlayerPrefs.GetInt(Stats.KVoluntadDeVivir);
 
-        float x = PlayerPrefs.GetFloat("PosicionX", Stats.PosJugador.x);
-        float y = PlayerPrefs.GetFloat("PosicionY", Stats.PosJugador.y);
-        float z = PlayerPrefs.GetFloat("PosicionZ", Stats.PosJugador.z);
+                if (PlayerPrefs.HasKey(Stats.KHabloAlicia))
+                {
+                    Stats.EstadoAlicia = (EstadosAlicia)PlayerPrefs.GetInt(Stats.KHabloAlicia);
+                }
 
-        Stats.PosJugador = new Vector3(x, y, z);
+                
+                SceneManager.LoadScene(PlayerPrefs.GetString(Stats.KUltimaEscena));
+            }
+        }
+    }
+
+    public void SeeStats()
+    {
+        Debug.Log(Stats.MS);
+        Debug.Log(Stats.EM);
+        Debug.Log(Stats.VV);
+
+        Debug.Log(Stats.EstadoAlicia);
+    }
+
+    //Se llama con el boton de nuevo juego
+    public void DeleteData()
+    {
+        Stats.MS = 100;
+        Stats.EM = 100;
+        Stats.VV = 100;
+
+        PlayerPrefs.SetInt("CurrentDay", 0);
+
+        Stats.EstadoAlicia = EstadosAlicia.NoHablado;
+        Stats.UltimaEscena = "";
     }
 }

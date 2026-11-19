@@ -15,15 +15,19 @@ MonoBehaviour:
   conversation:
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
-    line: .
+    line: ...
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: El tambor gira en la oscuridad...
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Dando vueltas y vueltas sobre el mismo eje, sin llegar a ning\xFAn lado,
       solo desgastando la tela."
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Qu\xE9 met\xE1fora tan est\xFApida y perfecta de mi puta rutina."
+    voiceClip: {fileID: 0}
   opciones: []

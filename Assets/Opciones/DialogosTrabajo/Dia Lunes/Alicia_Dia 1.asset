@@ -13,18 +13,26 @@ MonoBehaviour:
   m_Name: Alicia_Dia 1
   m_EditorClassIdentifier: Assembly-CSharp::Dialog
   conversation:
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: ...
+    voiceClip: {fileID: 0}
   - spaeker: 'Alicia Heimer '
     portrait: {fileID: 21300000, guid: b2ced09482f683442aa936118b4fdf59, type: 3}
     line: "Eh\u2026 Mizuki\u2026\xBFVerdad? \xA1Llegaste!"
+    voiceClip: {fileID: 8300000, guid: c9972550b6d39584189248f59016e0d0, type: 3}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: Es bueno verte Alicia
+    voiceClip: {fileID: 8300000, guid: 80b612db399d7a5499e607793c9ba1f1, type: 3}
   - spaeker: 'Alicia Heimer '
     portrait: {fileID: 21300000, guid: b2ced09482f683442aa936118b4fdf59, type: 3}
     line: "\xBFEs la primera vez que en el d\xEDa? Juraba haberte visto antes\u2026"
+    voiceClip: {fileID: 8300000, guid: 7f18c44c27419924fa5ccb8dc5f3bd6d, type: 3}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "(Carajo\u2026 solo invitala ya!) "
+    voiceClip: {fileID: 8300000, guid: 790269748b1bb2748b50a5034bac8946, type: 3}
   opciones:
   - {fileID: 11400000, guid: 2378e0c4c27a9914ebf8a3a796953e4e, type: 2}
   - {fileID: 11400000, guid: f10b5efdbd88fce4f85b81f194e399b4, type: 2}

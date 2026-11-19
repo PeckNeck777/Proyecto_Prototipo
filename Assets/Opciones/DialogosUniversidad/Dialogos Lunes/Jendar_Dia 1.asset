@@ -13,20 +13,28 @@ MonoBehaviour:
   m_Name: Jendar_Dia 1
   m_EditorClassIdentifier: Assembly-CSharp::Dialog
   conversation:
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: ...
+    voiceClip: {fileID: 0}
   - spaeker: Jendar Less
     portrait: {fileID: 21300000, guid: 50f22e9babf93c846be501466ed38614, type: 3}
     line: "\xA1Mizuki! \xBFQu\xE9 te trae por ac\xE1? "
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "No mucho.. solo las clases\u2026 \xBFQu\xE9 tal la vida de la mascota?
       \xBFAlgo nuevo para el tipo que se la pasa\u2026 rascando sea lo que sea que
       tenga ah\xED abajo?"
+    voiceClip: {fileID: 0}
   - spaeker: Jendar Less
     portrait: {fileID: 21300000, guid: 50f22e9babf93c846be501466ed38614, type: 3}
     line: "Nada nuevo\u2026 Solo estoy cansada de la vida "
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Carajo\u2026 y d\xEDmelo a m\xED\u2026 "
+    voiceClip: {fileID: 0}
   opciones:
   - {fileID: 11400000, guid: 1114a4b4e4ebc66419ab2056f2dc3c0d, type: 2}
   - {fileID: 11400000, guid: 4b49257a485081f43b5a50dccdebeca5, type: 2}

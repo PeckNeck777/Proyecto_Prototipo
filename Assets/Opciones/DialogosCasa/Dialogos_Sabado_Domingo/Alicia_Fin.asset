@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99b96955713899042b7125f4d9066314, type: 3}
+  m_Name: Alicia_Fin
+  m_EditorClassIdentifier: Assembly-CSharp::Dialog
+  conversation:
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: ...
+    voiceClip: {fileID: 0}
+  - spaeker: Alicia Heimer
+    portrait: {fileID: 21300000, guid: b2ced09482f683442aa936118b4fdf59, type: 3}
+    line: "\xBFEst\xE1s bien? Te veo\u2026 diferente "
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "Es solo\u2026 que ya ma\xF1ana\u2026 es la misma rutina de siempre\u2026
+      ya solo quiero\u2026 terminarlo\u2026  "
+    voiceClip: {fileID: 0}
+  - spaeker: Alicia Heimer
+    portrait: {fileID: 21300000, guid: b2ced09482f683442aa936118b4fdf59, type: 3}
+    line: "Hey\u2026 mirame\u2026 No te pongas triste\u2026 aunque sea lo mismo\u2026
+      espero recordarte siempre\u2026 despu\xE9s de este fin de semana\u2026"
+    voiceClip: {fileID: 0}
+  - spaeker: Alicia Heimer
+    portrait: {fileID: 21300000, guid: b2ced09482f683442aa936118b4fdf59, type: 3}
+    line: "\xA1Creo que ya oficialmente puedo presumir que eres mi novia! "
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "\xA1P-pero solo van 2! \xA1\xBFNo es muy r\xE1pido?! "
+    voiceClip: {fileID: 0}
+  - spaeker: Alicia Heimer
+    portrait: {fileID: 21300000, guid: b2ced09482f683442aa936118b4fdf59, type: 3}
+    line: "Prefiero eso\u2026 a olvidarte el d\xEDa de ma\xF1ana"
+    voiceClip: {fileID: 0}
+  opciones: []

@@ -15,20 +15,26 @@ MonoBehaviour:
   conversation:
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
-    line: .
+    line: ...
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: ...
+    voiceClip: {fileID: 0}
   - spaeker: Dolores D. Cabeza
     portrait: {fileID: 21300000, guid: 31fef8e781e414844bf58ff9fa7cddd6, type: 3}
     line: ...
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Vieja bruja\u2026"
+    voiceClip: {fileID: 0}
   - spaeker: Dolores D. Cabeza
     portrait: {fileID: 21300000, guid: 31fef8e781e414844bf58ff9fa7cddd6, type: 3}
     line: "\xBF\xA1Que dijiste?!"
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "\xA1VIEJA BRUJA!"
+    voiceClip: {fileID: 0}
   opciones: []

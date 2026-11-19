@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca9f0a3ec70487a4bb404a4fd2e12dcd, type: 3}
+  m_Name: Alicia_OpcionNormal 2
+  m_EditorClassIdentifier: Assembly-CSharp::OptionDialog
+  optionText: "Es que\u2026 no he podido dormir bien pensando en c\xF3mo sobrevivir
+    a lo que queda de semana\u2026"
+  afectaAAlicia: 1
+  nuevoEstado: 2
+  dialog: {fileID: 11400000, guid: 91add43b8c9d2a8479fc120e1c511bd4, type: 2}

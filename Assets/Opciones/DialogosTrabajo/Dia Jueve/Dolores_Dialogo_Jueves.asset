@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99b96955713899042b7125f4d9066314, type: 3}
+  m_Name: Dolores_Dialogo_Jueves
+  m_EditorClassIdentifier: Assembly-CSharp::Dialog
+  conversation:
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: ...
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "Ya casi es viernes\u2026  "
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "Ya no le tendr\xE9 que ver la cara, vieja bruja"
+    voiceClip: {fileID: 0}
+  - spaeker: Dolores D. Cabeza
+    portrait: {fileID: 21300000, guid: 31fef8e781e414844bf58ff9fa7cddd6, type: 3}
+    line: "Lo mismo digo\u2026  "
+    voiceClip: {fileID: 0}
+  - spaeker: Dolores D. Cabeza
+    portrait: {fileID: 21300000, guid: 31fef8e781e414844bf58ff9fa7cddd6, type: 3}
+    line: Aunque al contrario de ti, yo si aprecio mi vida
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "\xBFAh s\xED? \xBFComo?  "
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "\xBFHaci\xE9ndole hechizos a la gente feliz?"
+    voiceClip: {fileID: 0}
+  - spaeker: Dolores D. Cabeza
+    portrait: {fileID: 21300000, guid: 31fef8e781e414844bf58ff9fa7cddd6, type: 3}
+    line: Vete al carajo
+    voiceClip: {fileID: 0}
+  opciones: []

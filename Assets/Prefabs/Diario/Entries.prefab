@@ -1,0 +1,225 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7396509299658924007
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7191259846136966769}
+  - component: {fileID: 7176601326946400081}
+  m_Layer: 0
+  m_Name: Entries
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &7191259846136966769
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7396509299658924007}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 285.09824, y: 210.39987, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7176601326946400081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7396509299658924007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fb168a51fb7720439e165c181d4e38f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::JournalEntry
+  nuevoEstado: 0
+  voluntadVivir: 0
+  estadoDia: 0
+  diaActu: 0
+  datos:
+  - textoMalo: "Joder\u2026 empezamos la semana bien\u2026 por si acaso, es sarcasmo.
+      Siempre me pregunte el por qu\xE9 Garfield odia los lunes\u2026 ahora lo veo. 
+      Aunque claro, tendr\xEDa sentido si tan solo hubiera visto a Garfield en mi
+      puta vida.  Pensamiento Random del d\xEDa: \xBFAlguna vez has pensado en ser
+      una patata? Pues yo s\xED\u2026 me pregunto c\xF3mo ser\xEDa solo crecer y
+      crecer\u2026. "
+    textoRegular: "Bueeeeeeeee! Ni fu, ni fa. \xBFSabes de esos d\xEDas donde todo
+      va tan mal que mejoran de golpe y te quedas con un sabor agridulce por eso?
+      Pues ha sido as\xED\u2026 tan mal para querer pegarme un tiro\u2026 pero tan
+      bueno como para no hacerlo.  Pensamiento Random del d\xEDa: \xBFQu\xE9 pensar\xEDa
+      Godzilla de los humanos hoy en d\xEDa? Quiz\xE1s\u2026 est\xE9 asustado y por
+      eso se queda escondido :p  "
+    textoBueno: "Huh\u2026 \xA1Este d\xEDa super\xF3 mis expectativas! Si tan solo\u2026
+      hubiera tenido una para el d\xEDa de hoy\u2026 pero todo fue tan suave\u2026
+      tan sencillo\u2026 casi\u2026 \xA1Casi como si alguien me estuviera siguiendo! 
+      Pensamiento Random del d\xEDa: En estos d\xEDas me hace pensar si todo es 
+      una simulaci\xF3n\u2026 tipo la pel\xEDcula de Truman\u2026 hay personas que
+      no puedo creer que sean reales. "
+    aliciaTestoInvitada: "Ok\u2026 ok\u2026 ok\u2026 \xA1MI PRIMERA CITA! Para nada
+      estoy nerviosa\u2026 A qui\xE9n enga\xF1o\u2026 \xBFQu\xE9 hacen las personas
+      neurot\xEDpicas en las citas? Ser humano\u2026 es muy dif\xEDcil "
+    aliciaTestoNaoInvitada: "Menuda mierda\u2026 se me fueron los huevos\u2026 Aunque
+      creo que en este caso ser\xEDan\u2026 \xBFOvarios? Ahhhhh\u2026 alg\xFAn d\xEDa
+      Mizuki\u2026 alg\xFAn d\xEDa invitaras a salir a esa chica tan guapa\u2026 "
+    textoDiario: {fileID: 0}
+    textoAlicia: {fileID: 0}
+  - textoMalo: "Segundo d\xEDa de la semana\u2026 y fue una mierda\u2026 pero est\xE1
+      bien\u2026 as\xED como dice el Pelusa Caligari \u201CAl final, todo estar\xE1
+      bien, y si no est\xE1 bien, no hemos llegado al final\u201D  Ojal\xE1 fuera
+      as\xED de f\xE1cil, \xBFNo?  Pensamiento Random del d\xEDa: \xBFPor qu\xE9
+      nos da curiosidad algo que nos aterra? Personalmente tengo talasofobia\u2026
+      pero aunque me de un rechazo\u2026 no puedo dejar de ver fotos del fondo del
+      oc\xE9ano. "
+    textoRegular: "\xA1Un 50/50! No est\xE1 mal dentro de lo que cabe\u2026 pero
+      tampoco est\xE1 bien\u2026 \xBFSe puede vivir con esto o es un tipo de conformismo?
+      Sea lo que sea\u2026 quiero un burrito.  Pensamiento Random del d\xEDa: \xBFPor
+      qu\xE9 el burrito sabanero quer\xEDa llegar a Bel\xE9n? Nunca le prest\xF3
+      atenci\xF3n a la canci\xF3n pero menciona algo de Jesus\u2026 supongo que ser\xE1
+      por eso. "
+    textoBueno: "\xA1Un buen d\xEDa! Est\xE1 bien\u2026 Como dir\xE1 la pel\xEDcula
+      de Scooby-Doo \u201C\xA1Chido, me pareci\xF3 que estaba de a tiro bien perron!\u201D
+      Ahhhh\u2026 Quiz\xE1s por eso no tengo tantos amigos\u2026  \xA1Soy un bicho
+      raro! Pero a mi manera  Pensamiento Random del d\xEDa: \xBFPor qu\xE9 encajar
+      en esta sociedad si naciste para sobresalir? Personalmente veo que muchos se
+      matan al encajar en una sociedad\u2026 que ni esta tan buena \xA1Supongo que
+      ser un bicho raro tiene sus ventajas! "
+    aliciaTestoInvitada: "Ok\u2026 segundo d\xEDa y solo queda decir\u2026 \xA1Es
+      una reina! Hace tiempo que mi coraz\xF3n se enfoco en ella\u2026 \xA1No me
+      arrepiento de nada! Solo espero\u2026 no perderme en sus ojos.  \u2026 Ok\u2026
+      eso fue hasta demasiado empalagoso.  "
+    aliciaTestoNaoInvitada: "Otro d\xEDa y otra oportunidad\u2026 aunque creo que
+      de aqu\xED en adelante no tendr\xE9 otra oportunidad en los siguientes d\xEDas\u2026
+      solo espero que este bien \xA1Un coraz\xF3n enamorado se alegra aunque esa
+      persona no est\xE9 a su lado! Aunque de preferencia\u2026 quisiera estarlo "
+    textoDiario: {fileID: 0}
+    textoAlicia: {fileID: 0}
+  - textoMalo: "Mala suerte\u2026 \xBFSer\xE1 eso, no? Es que no creo que algo tan
+      desastroso pueda pasar en un d\xEDa \xBF\xA1Que hice para merecer esto!?  Bueno\u2026
+      que NO habr\xE9 hecho\u2026 creo que me lo merezco si es un tipo de castigo
+      divino.  Pensamiento Random del d\xEDa: \xBFPor qu\xE9 carajos hay tantas religiones?
+      Se supone que solo existe un Dios\u2026 o varios dependiendo que creas\u2026
+      y si no crees en ellos, ardes en el infierno. De ser as\xED\u2026 \xBFHabr\xE1
+      una religi\xF3n correcta?  "
+    textoRegular: "Mira, ni t\xFA ni yo\u2026 ni blanco ni negro\u2026 un gris intermedio
+      donde no pasa absolutamente nada\u2026  Una X para este d\xEDa\u2026 aunque
+      quisiera que esa X fuera el tesoro de un pirata.  Pensamiento Random del d\xEDa:
+      Piratas. \xBFEsperabas algo m\xE1s? No, solo\u2026 piratas. "
+    textoBueno: "\xA1Atr\xE1s! \xA1Tengo el poder del prota de anime de mi lado!
+      No, no lo creo\u2026 si lo tuviera creo que podr\xEDa volar o evangelizar a
+      quien yo quisiera\u2026 y ahora solo se me antoja una pizza.  Pero sin pi\xF1a\u2026
+      podre ser neurodivergente y un bicho raro\u2026 pero tengo mis limites  Pensamiento
+      Random del d\xEDa: Pizza\u2026 \xBFQu\xE9 habr\xE1 pensado quien la cre\xF3?
+      Sea lo que sea que haya pensado\u2026 fue un cabr\xF3n.  "
+    aliciaTestoInvitada: "Ok\u2026 cada d\xEDa m\xE1s cerca la cita\u2026 cada d\xEDa
+      m\xE1s nerviosa\u2026 solo espero que no se espante al ver mi colecci\xF3n
+      de peluches, mangas, figuras\u2026 Mierda\u2026 \xBFHabr\xE1n cavado mi propia
+      tumba sin darme cuenta? Nah\u2026 no creo.  "
+    aliciaTestoNaoInvitada: "Y ah\xED va\u2026 ese cabello tan hermoso\u2026 esa
+      sonrisa\u2026 \xA1\xBFPor qu\xE9 estar enamorada duele?! No lo s\xE9\u2026
+      a veces si quiera entiendo que me pasa, no creo tener la energ\xEDa para saber
+      qu\xE9 pasa con el estar enamorada\u2026 "
+    textoDiario: {fileID: 0}
+    textoAlicia: {fileID: 0}
+  - textoMalo: "Jueves de mierda\u2026 d\xEDa de mierda\u2026 todo fue una mierda\u2026
+      hasta la mierda fue mierda\u2026  \xBFTiene sentido? Dios\u2026 \xA1Hasta la
+      analog\xEDa es una mierda!  Pensamiento Random del d\xEDa: Mierda. "
+    textoRegular: "Para ser un jueves\u2026 no est\xE1 mal\u2026 claro, hubiera estado
+      mejor pero el jueves no est\xE1 ni en el top 3 de los mejores d\xEDas de la
+      semana.  \xBFSi hubiera una tier list? Estar\xEDa en una B solida.  Pensamiento
+      Random del d\xEDa: Tier list\u2026 \xBFQui\xE9n habr\xE1 creado eso? Supongo
+      que para mostrar que sus gustos eran mejores\u2026 solo hizo una lista y se
+      empez\xF3 a proclamar un superior por tener gustos superiores.  "
+    textoBueno: "\xA1Jueves y ya ma\xF1ana viernes! No me lo tomes a mal\u2026 pero
+      a decir verdad, el jueves solo es para esperar el viernes\u2026 \xA1Es un d\xEDa
+      de paso! Pero no estuvo para nada\u2026 \xA1Para nada mal!  Pensamiento Random
+      del d\xEDa: \xBFQu\xE9 animal ser\xEDas? Yo un drag\xF3n\u2026 imagina volar
+      por ah\xED\u2026 y poder quemar a tus enemigos\u2026 \xA1Es perfecto! \u2026
+      \xBFA qu\xE9 te refieres que para responder eso hay que usar animales normales?
+      \xA1Aburrido! "
+    aliciaTestoInvitada: "\xA1\xA1\xA1AHHHHHHHHHHHHHHHHHHHHHHHH!!! Ok.. tranquila
+      Mizuki\u2026 solo es tu crush de hace a\xF1os\u2026 finalmente saliendo contigo\u2026
+      a 2 d\xEDas de la cita\u2026 \xA1No lo arruines! "
+    aliciaTestoNaoInvitada: "Ya no se que decir\u2026 supongo que se fue otra semana\u2026
+      y Alicia no esta saliendo conmigo\u2026 a decir verdad\u2026 espero que nadie
+      m\xE1s lo haga\u2026 No es que quiera decir que no lo puedan hacer\u2026 pero
+      \xBFUn coraz\xF3n roto? No gracias "
+    textoDiario: {fileID: 0}
+    textoAlicia: {fileID: 0}
+  - textoMalo: "Bueno\u2026 El d\xEDa pudo haber sido malo\u2026 pero \xA1Al menos
+      sobreviv\xED a todo este caos! Ya ma\xF1ana descanso de todo\u2026 podr\xE9
+      poner mi cabeza en blanco por primera vez\u2026  Bueno, no tanto\u2026 esta
+      medio dificil sabiendo que tengo tareas que hacer la puta madre\u2026  Pensamiento
+      Random del d\xEDa: Apocalipsis zombie\u2026 lastima que no pueda ser real\u2026
+      lo veo como un escape del mundo real\u2026 y el poder usar un bate de manera
+      agresiva y legal  "
+    textoRegular: "Para ser el final de la semana no fue para tanto\u2026 pens\xE9
+      que pudo haber ido a peor pero finalmente a descansar\u2026 aunque sea un poco
+      antes de regresar a mi turno infernal de lunes a viernes ocupado por casi todo
+      el puto dia.  Solo falta que caiga nieve\u2026 aunque en este pa\xEDs es imposible 
+      Pensamiento Random del d\xEDa: \xBFPor qu\xE9 el hielo o el fr\xEDo en general
+      es tan c\xF3modo? Por que puedes regular la cantidad de calor con tantos su\xE9teres
+      que necesites\u2026 en cambio el calor es m\xE1s complicado\u2026 por ende
+      el fr\xEDo es muuuuuuuuuuy superior "
+    textoBueno: "Huh\u2026 fue un dia bueno\u2026 pero no siento nada diferente\u2026.
+      solo un agradecimiento que terminar\xE1 la semana\u2026 solo quisiera descansar\u2026
+      y comerme una hamburguesa muy grande.  A veces odio la vida\u2026 pero minimo
+      si algun dia morire\u2026 morire por una raz\xF3n justificable\u2026 esta vez
+      ser\xE1 una hamburguesa  Pensamiento Random del d\xEDa: Si pudieran escoger
+      su muerte\u2026 \xBFC\xF3mo lo har\xEDan? Muchos dicen cosas aburridas como
+      el silencio mientras duermo o viendo el amanecer\u2026 \xA1Aburrido! Si fuera
+      por mi me materia dentro de un traje Springlock del Fnaf\u2026 si muero quiz\xE1s
+      reencarne en un robot gigante "
+    aliciaTestoInvitada: "Ok\u2026 ma\xF1ana es el gran d\xEDa\u2026 \xA1Esto no
+      es un simulacro! Lo hablar\xE9 con mis peluches\u2026 para saber que carajos
+      tengo que hacer "
+    aliciaTestoNaoInvitada: "Ah\u2026. bueno all\xED fue mi oportunidad\u2026 ahora
+      solo queda lamentarme\u2026 hasta el siguiente lunes que tenga la oportunidad!!!! "
+    textoDiario: {fileID: 0}
+    textoAlicia: {fileID: 0}
+  - textoMalo: "Bueno, un s\xE1bado malo\u2026 le puede pasar a cualquiera\u2026
+      \xA1Incluso a los mejores! Aunque claro\u2026 no soy de los mejores\u2026 
+      Aunque es s\xE1bado, un s\xE1bado NUNCA puede ser tan malo\u2026 \xBFVerdad? 
+      Pensamiento Random del d\xEDa: Deber\xEDa estar haciendo mi tarea\u2026 exacto\u2026
+      deber\xEDa\u2026 pero quiz\xE1s pase hoy. "
+    textoRegular: "Un s\xE1bado regular\u2026 no me puedo quejar de esto\u2026 \xA1Por
+      lo menos pude ver memes de gatos!  Aunque es s\xE1bado, un s\xE1bado NUNCA
+      puede ser tan regular \xBFVerdad?  Pensamiento Random del d\xEDa: Quisiera
+      ser un gato "
+    textoBueno: "Un s\xE1bado bueno\u2026 tan bueno que parece todo falso\u2026 \xA1Pero
+      hoy me compre un juego nuevo!  Aunque es s\xE1bado, un s\xE1bado NUNCA puede
+      ser tan bueno \xBFVerdad?  Pensamiento Random del d\xEDa: Me doy cuenta\u2026
+      cuando juego sola siempre hablo sola\u2026 como si fuera una streamer\u2026
+      y todo gracias a Vegetta777\u2026 que es tan guapo\u2026 "
+    aliciaTestoInvitada: "Mierda\u2026 DIJO QUE SE IBA A QUEDAR A DORMIR!?!?!?!?!!?!?
+      \xBFAhora como mierda les explico a mis peluches que no estar\xE1n en cama
+      el d\xEDa de hoy? Las decisiones dif\xEDciles\u2026 requieren voluntades fuertes\u2026 "
+    aliciaTestoNaoInvitada: "Bueno\u2026 le mande un mensaje hoy y hablamos un poco\u2026
+      aunque le tuve que recordar mi nombre como 5 veces\u2026 pero que bueno que
+      respondi\xF3\u2026"
+    textoDiario: {fileID: 0}
+    textoAlicia: {fileID: 0}
+  - textoMalo: "Nada m\xE1s que decir\u2026 fue una semana bastante loca\u2026 \xA1pero
+      ma\xF1ana se decidir\xE1 todo! Solo espero que todo haya ido bien\u2026 "
+    textoRegular: "Nada m\xE1s que decir\u2026 fue una semana bastante loca\u2026
+      \xA1pero ma\xF1ana se decidir\xE1 todo! Solo espero que todo haya ido bien\u2026 "
+    textoBueno: "Nada m\xE1s que decir\u2026 fue una semana bastante loca\u2026 \xA1pero
+      ma\xF1ana se decidir\xE1 todo! Solo espero que todo haya ido bien\u2026 "
+    aliciaTestoInvitada: "Me dijo que me iba a dar una sorpresa antes de terminar
+      el d\xEDa\u2026 \xBF\xA1Ser\xE1 oficializar!? No no\u2026 tranquila\u2026 no
+      se puede ir tan r\xE1pido\u2026 \xBFVerdad? "
+    aliciaTestoNaoInvitada: "No hay mucho que decir\u2026 solo pensando en ella como
+      siempre\u2026 "
+    textoDiario: {fileID: 0}
+    textoAlicia: {fileID: 0}

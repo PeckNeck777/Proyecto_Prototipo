@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca9f0a3ec70487a4bb404a4fd2e12dcd, type: 3}
+  m_Name: Moe_Option 1
+  m_EditorClassIdentifier: Assembly-CSharp::OptionDialog
+  optionText: "Cr\xE9ame jefe\u2026 parece que los 2 est\xE1n\u2026 hechos el uno
+    para el otro (Si hablamos de ser un dolor en el culo de los dem\xE1s\u2026)"
+  afectaAAlicia: 0
+  nuevoEstado: 0
+  dialog: {fileID: 11400000, guid: 65e7b3c64ac5b2e438e166b81e3eed90, type: 2}

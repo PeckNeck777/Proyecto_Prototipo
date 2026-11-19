@@ -2251,9 +2251,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::UIManager
   instrucciones: {fileID: 1744948501}
   winScreen: {fileID: 852811964}
+  winScreenTrabajo: {fileID: 0}
   gameOverScreen: {fileID: 1284932466}
-  textoControles: {fileID: 523332839}
-  textoInstrucciones: {fileID: 315362023}
+  textoControles: {fileID: 0}
+  textoInstrucciones: {fileID: 0}
+  textoTareaTrabajo: {fileID: 0}
 --- !u!4 &1422162594
 Transform:
   m_ObjectHideFlags: 0

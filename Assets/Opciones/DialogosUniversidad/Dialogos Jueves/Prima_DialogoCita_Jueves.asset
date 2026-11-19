@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99b96955713899042b7125f4d9066314, type: 3}
+  m_Name: Prima_DialogoCita_Jueves
+  m_EditorClassIdentifier: Assembly-CSharp::Dialog
+  conversation:
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: ...
+    voiceClip: {fileID: 0}
+  - spaeker: Prima Donna
+    portrait: {fileID: 21300000, guid: 18886ddef4b8511469a8c5fb590c74ae, type: 3}
+    line: "Ya es jueves\u2026 l\xE1stima que el fin de semana no tendr\xE9 tanta
+      atenci\xF3n como antes\u2026"
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "Siempre te ha gustado ser as\xED, \xBFno?"
+    voiceClip: {fileID: 0}
+  - spaeker: Prima Donna
+    portrait: {fileID: 21300000, guid: 18886ddef4b8511469a8c5fb590c74ae, type: 3}
+    line: "\xBFY qu\xE9 esperabas? La atenci\xF3n\u2026 es lo \xFAnico que me ha
+      mantenido a flote\u2026"
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "Ojal\xE1 tuviera algo as\xED\u2026"
+    voiceClip: {fileID: 0}
+  - spaeker: Prima Donna
+    portrait: {fileID: 21300000, guid: 18886ddef4b8511469a8c5fb590c74ae, type: 3}
+    line: "Oh, cr\xE9eme, cielo. Si supieras lo insoportable que se ha vuelto mi
+      hermana esta semana\u2026"
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "\xBFAlicia?"
+    voiceClip: {fileID: 0}
+  - spaeker: Prima Donna
+    portrait: {fileID: 21300000, guid: 18886ddef4b8511469a8c5fb590c74ae, type: 3}
+    line: "No ha dejado de hablar de ti! \xA1Que si los chocolates, que si la ropa,
+      que si qu\xE9 deber\xEDa ponerse! \xA1Hasta me pidi\xF3 opini\xF3n sobre qu\xE9
+      zapatos combinar!"
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "Je\u2026 parece que est\xE1 emocionada."
+    voiceClip: {fileID: 0}
+  - spaeker: Prima Donna
+    portrait: {fileID: 21300000, guid: 18886ddef4b8511469a8c5fb590c74ae, type: 3}
+    line: "Much\xEDsimo\u2026"
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "\xBFTe molesta?"
+    voiceClip: {fileID: 0}
+  - spaeker: Prima Donna
+    portrait: {fileID: 21300000, guid: 18886ddef4b8511469a8c5fb590c74ae, type: 3}
+    line: "\xBFMolestarme? \xA1Por favor! Es mi hermanita. Quiero que sea feliz\u2026"
+    voiceClip: {fileID: 0}
+  - spaeker: Prima Donna
+    portrait: {fileID: 21300000, guid: 18886ddef4b8511469a8c5fb590c74ae, type: 3}
+    line: "Aunque\u2026 supongo que tendr\xE9 que acostumbrarme a compartir un poquito
+      de su atenci\xF3n."
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: No creo que vaya a dejar de quererte por salir conmigo.
+    voiceClip: {fileID: 0}
+  - spaeker: Prima Donna
+    portrait: {fileID: 21300000, guid: 18886ddef4b8511469a8c5fb590c74ae, type: 3}
+    line: ...
+    voiceClip: {fileID: 0}
+  - spaeker: Prima Donna
+    portrait: {fileID: 21300000, guid: 18886ddef4b8511469a8c5fb590c74ae, type: 3}
+    line: "Tsk. No te pongas sentimental conmigo, cielo. \xA1Arruinar\xE1s mi maquillaje!"
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "Tsk. No te pongas sentimental conmigo, cielo. \xA1Arruinar\xE1s mi maquillaje!"
+    voiceClip: {fileID: 0}
+  opciones: []

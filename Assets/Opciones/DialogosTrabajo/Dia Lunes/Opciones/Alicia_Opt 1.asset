@@ -13,4 +13,8 @@ MonoBehaviour:
   m_Name: Alicia_Opt 1
   m_EditorClassIdentifier: Assembly-CSharp::OptionDialog
   optionText: "Empat\xEDa para la mejor mujer que he conocido"
+  afectaAAlicia: 1
+  nuevoEstado: 2
+  claveDiario: 
+  rutaEspe: 1
   dialog: {fileID: 11400000, guid: a89e502d289834c48a5087a7ff96ddc6, type: 2}

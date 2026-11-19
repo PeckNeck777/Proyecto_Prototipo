@@ -16,12 +16,16 @@ public class KahotGame : Minigame
     [SerializeField] private int intentos = 3;
     [SerializeField] private float timer = 30f;
     [SerializeField] private GameObject[] panelPregunta;
+    [SerializeField] private AudioClip wrongAnswer;
+    [SerializeField] private AudioClip correctAnswer;
+    [SerializeField] private AudioSource answer;
 
     private int indicePreg = 0;
 
     [Header("UI References")]
     [SerializeField] private TMP_Text textoTimer;
     [SerializeField] private TMP_Text textoScore;
+    [SerializeField] private TMP_Text textoIntentos;
 
     public override void StartGame()
     {
@@ -45,7 +49,7 @@ public class KahotGame : Minigame
 
         if (textoTimer != null)
         {
-            textoTimer.text = Mathf.CeilToInt(tiempoRestante).ToString() + "s";
+            textoTimer.text = "Tiempo restante para la pregunta: " + Mathf.CeilToInt(tiempoRestante).ToString() + "s";
         }
 
 
@@ -54,12 +58,14 @@ public class KahotGame : Minigame
             RespuestasIncorrectas();
         }
 
+        textoIntentos.text = "Intentos restantes: " + intentosRestantes.ToString() + "/3";
     }
 
     public void AumentarRespuestasCorrectas()
     {
         respuestas++;
         ActualizarUI();
+        answer.PlayOneShot(correctAnswer);
 
         if (respuestas >= respuestasNecesitadas)
         {
@@ -75,6 +81,7 @@ public class KahotGame : Minigame
     {
         IntentosFallidos(); 
         ActualizarUI();
+        answer.PlayOneShot(wrongAnswer);
 
         if (intentosRestantes > 0)
         {

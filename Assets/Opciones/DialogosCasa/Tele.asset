@@ -15,30 +15,38 @@ MonoBehaviour:
   conversation:
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
-    line: .
+    line: ...
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Una caja que hace a\xF1os parec\xEDa m\xE1gica\u2026 "
+    voiceClip: {fileID: 8300000, guid: 2a0fcb386a926554d95a1fb93978a37f, type: 3}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Ahora el 96% del tiempo la dejo encendida para que el apartamento no me
       mate con su silencio\u2026 "
+    voiceClip: {fileID: 8300000, guid: 80fae004112b15a41a4e2c6a4b85b64b, type: 3}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "El otro 4% si la uso para ver la misma pel\xEDcula una y otra vez "
+    voiceClip: {fileID: 8300000, guid: 5ebd2442fa625bc459619a0da94a4ee6, type: 3}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Maldita hiperfijaci\xF3n\u2026 ojala me hubiera dado \xFAtil "
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Pero me tengo que fumar 2 horas y media de un hombre que fue picado por
       una ara\xF1a "
+    voiceClip: {fileID: 8300000, guid: 8b7246966302f304395ad3af9b29015a, type: 3}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: ...
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: Igual no me quejo.
+    voiceClip: {fileID: 8300000, guid: 2d233cfa08777f443b32d01a5b788ec3, type: 3}
   opciones:
   - {fileID: 11400000, guid: e5cfbd9c726dd9f4990f0cb3c83ef4a6, type: 2}
   - {fileID: 11400000, guid: 76a6daf018e44da45ba4c2df3e2965ea, type: 2}

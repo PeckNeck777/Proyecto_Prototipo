@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99b96955713899042b7125f4d9066314, type: 3}
+  m_Name: Prima_DialogoCita_Miercoles
+  m_EditorClassIdentifier: Assembly-CSharp::Dialog
+  conversation:
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: ...
+    voiceClip: {fileID: 0}
+  - spaeker: Prima Donna
+    portrait: {fileID: 21300000, guid: 18886ddef4b8511469a8c5fb590c74ae, type: 3}
+    line: "\xA1Qu\xE9 d\xEDa tan perfecto! Si algo brilla m\xE1s que el sol\u2026
+      \xA1De seguro ser\xEDa yo y nadie m\xE1s!"
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "\xBFNo estar\xEDas ardiendo a m\xE1s de 5,500 grados?"
+    voiceClip: {fileID: 0}
+  - spaeker: Prima Donna
+    portrait: {fileID: 21300000, guid: 18886ddef4b8511469a8c5fb590c74ae, type: 3}
+    line: "Cielo, yo ya soy ardiente\u2026 un peque\xF1o ajuste en la temperatura\u2026
+      no cambiar\xEDa nada."
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "Mierda\u2026 quisiera tener esa confianza\u2026"
+    voiceClip: {fileID: 0}
+  - spaeker: Prima Donna
+    portrait: {fileID: 21300000, guid: 18886ddef4b8511469a8c5fb590c74ae, type: 3}
+    line: "Consigue un sentido de la moda\u2026 y luego me hablas \xBFS\xED?"
+    voiceClip: {fileID: 0}
+  - spaeker: Prima Donna
+    portrait: {fileID: 21300000, guid: 18886ddef4b8511469a8c5fb590c74ae, type: 3}
+    line: "Aunque\u2026 supongo que a alguien ya le da igual c\xF3mo te ves, considerando
+      los planes del s\xE1bado."
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "\xBFSabes lo de\u2026 la cita?"
+    voiceClip: {fileID: 0}
+  - spaeker: Prima Donna
+    portrait: {fileID: 21300000, guid: 18886ddef4b8511469a8c5fb590c74ae, type: 3}
+    line: Por favor, Alicia no ha dejado de hablar sola frente al espejo en todo
+      la maldita semana.
+    voiceClip: {fileID: 0}
+  - spaeker: Prima Donna
+    portrait: {fileID: 21300000, guid: 18886ddef4b8511469a8c5fb590c74ae, type: 3}
+    line: "Escucha bien, Mizuki: si le rompes el coraz\xF3n o la haces llorar antes
+      del lunes, te aseguro que tu miserable existencia en este trabajo va a parecer
+      un paseo en un parque de diversiones."
+    voiceClip: {fileID: 0}
+  - spaeker: Prima Donna
+    portrait: {fileID: 21300000, guid: 18886ddef4b8511469a8c5fb590c74ae, type: 3}
+    line: "\xA1A mi hermana la trato mal solo yo!"
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: Entendido. No la voy a decepcionar.
+    voiceClip: {fileID: 0}
+  - spaeker: Prima Donna
+    portrait: {fileID: 21300000, guid: 18886ddef4b8511469a8c5fb590c74ae, type: 3}
+    line: "M\xE1s te vale. Ahora ap\xE1rtate, est\xE1s arruinando mi \xE1ngulo de
+      luz."
+    voiceClip: {fileID: 0}
+  opciones: []

@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99b96955713899042b7125f4d9066314, type: 3}
+  m_Name: Alicia_DialogoCementerio_Miercoles
+  m_EditorClassIdentifier: Assembly-CSharp::Dialog
+  conversation:
+  - spaeker: Mizuki
+    portrait: {fileID: 0}
+    line: ...
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 0}
+    line: "\xBFS\xED...?"
+    voiceClip: {fileID: 0}
+  - spaeker: Alicia Heimer
+    portrait: {fileID: 0}
+    line: "\xA1Mizuki!"
+    voiceClip: {fileID: 0}
+  - spaeker: Alicia Heimer
+    portrait: {fileID: 0}
+    line: "\xA1Por fin contestas! \xBFEst\xE1s bien?"
+    voiceClip: {fileID: 0}
+  - spaeker: Alicia Heimer
+    portrait: {fileID: 0}
+    line: "\xA1No fuiste hoy al trabajo y faltan solo unos d\xEDas para el s\xE1bado!
+      \xBFTe pas\xF3 algo grave? \xBFTe desmayaste? \xA1Dime algo!"
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 0}
+    line: "Tranquila\u2026 solo\u2026 no me sent\xEDa con fuerzas para ir hoy."
+    voiceClip: {fileID: 0}
+  - spaeker: Alicia Heimer
+    portrait: {fileID: 0}
+    line: '*Suspiro*'
+    voiceClip: {fileID: 0}
+  - spaeker: Alicia Heimer
+    portrait: {fileID: 0}
+    line: "Ay... qu\xE9 susto me di."
+    voiceClip: {fileID: 0}
+  - spaeker: Alicia Heimer
+    portrait: {fileID: 0}
+    line: "Pens\xE9 que... bueno, pens\xE9 que te hab\xEDas arrepentido de lo nuestro
+      o que te hab\xEDas enfermado feo."
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 0}
+    line: "No... no me arrepent\xED de nada."
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 0}
+    line: "M\xE1s te vale. Cu\xEDdate hoy, \xBFs\xED?"
+    voiceClip: {fileID: 0}
+  - spaeker: Alicia Heimer
+    portrait: {fileID: 0}
+    line: "Tienes que estar al 100% para el s\xE1bado."
+    voiceClip: {fileID: 0}
+  - spaeker: Alicia Heimer
+    portrait: {fileID: 0}
+    line: "Yo... bueno, yo te cubr\xED con el jefe, as\xED que no te preocupes por
+      eso. \xA1Descansa!"
+    voiceClip: {fileID: 0}
+  - spaeker: Alicia Heimer
+    portrait: {fileID: 0}
+    line: '*Click*'
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 0}
+    line: ...
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 0}
+    line: "Se acord\xF3 del s\xE1bado. Incluso asustada, se acord\xF3."
+    voiceClip: {fileID: 0}
+  opciones: []

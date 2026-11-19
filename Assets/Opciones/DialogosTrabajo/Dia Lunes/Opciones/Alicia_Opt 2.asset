@@ -13,4 +13,8 @@ MonoBehaviour:
   m_Name: Alicia_Opt 2
   m_EditorClassIdentifier: Assembly-CSharp::OptionDialog
   optionText: "\xBFSe ha fijado... en mi?"
+  afectaAAlicia: 1
+  nuevoEstado: 2
+  claveDiario: 
+  rutaEspe: 1
   dialog: {fileID: 11400000, guid: c6bb6775908f0d445838eee238b17cd2, type: 2}

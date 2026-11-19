@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca9f0a3ec70487a4bb404a4fd2e12dcd, type: 3}
+  m_Name: Maistro_Option_Dialog
+  m_EditorClassIdentifier: Assembly-CSharp::OptionDialog
+  optionText: (Aun no... puedo esperar!)
+  afectaAAlicia: 0
+  nuevoEstado: 0
+  dialog: {fileID: 11400000, guid: 4fc88a3400d73354a94af001c7b24612, type: 2}

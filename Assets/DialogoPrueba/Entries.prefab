@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7453211093072049263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2473747364568030493}
+  - component: {fileID: 4599184682126582144}
+  m_Layer: 0
+  m_Name: Entries
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2473747364568030493
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7453211093072049263}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.72828, y: -0.54767, z: 3.68242}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4599184682126582144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7453211093072049263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fb168a51fb7720439e165c181d4e38f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::JournalEntry
+  nuevoEstado: 0
+  voluntadVivir: 0
+  estadoDia: 0
+  diaActu: 0
+  datos:
+  - textoMalo: Buuu dia de mrd
+    textoRegular: Meh, dia X
+    textoBueno: Wuuuu, dia de joyitas
+    aliciaTestoInvitada: Invitada OSIUUUUUUUU
+    aliciaTestoNaoInvitada: No invitada, me wa suicidar
+    textoDiario: {fileID: 0}
+    textoAlicia: {fileID: 0}
+  - textoMalo: Buuu dia de mrd x2
+    textoRegular: Meh, dia X x2
+    textoBueno: Wuuuu, dia de joyitas x2
+    aliciaTestoInvitada: Invitada OSIUUUUUUUU x2
+    aliciaTestoNaoInvitada: No invitada, me wa suicidar x2
+    textoDiario: {fileID: 0}
+    textoAlicia: {fileID: 0}
+  - textoMalo: Buuu dia de mrd x3
+    textoRegular: Meh, dia X x3
+    textoBueno: Wuuuu, dia de joyitas x3
+    aliciaTestoInvitada: Invitada OSIUUUUUUUU x3
+    aliciaTestoNaoInvitada: No invitada, me wa suicidar x3
+    textoDiario: {fileID: 0}
+    textoAlicia: {fileID: 0}

@@ -69,7 +69,7 @@ public class PhoneUI : MonoBehaviour
 
     public void ActualizarPantalla()
     {
-        diaHora.text = "Día: " + ObtenerDia(Stats.DiaActual) + " | " + ObtenerHora(Stats.HoraActual);
+        //diaHora.text = "Día: " + ObtenerDia(Stats.DiaActual) + " | " + ObtenerHora(Stats.HoraActual);
     }
    
 

@@ -15,20 +15,26 @@ MonoBehaviour:
   conversation:
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
-    line: .
+    line: ...
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Un lavamanos\u2026 "
+    voiceClip: {fileID: 8300000, guid: 52e4087fc9670424a8863ed1a05f69a1, type: 3}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Literalmente dise\xF1ado para lavarme\u2026 las manos"
+    voiceClip: {fileID: 8300000, guid: 6ae4e557f3689364db25402215a8a0e8, type: 3}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: Aunque el 90% de veces lo uso para acumular platos sucios
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Que luego me dan asco tocarlos\u2026 "
+    voiceClip: {fileID: 8300000, guid: 8b7246966302f304395ad3af9b29015a, type: 3}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: 'Joder, al final resulto ser un lavaplatos no tan eficiente '
+    voiceClip: {fileID: 8300000, guid: 790269748b1bb2748b50a5034bac8946, type: 3}
   opciones: []

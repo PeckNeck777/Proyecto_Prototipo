@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -14,6 +15,10 @@ public class DrivingGame : Minigame
     [SerializeField] private float changeLaneDistance = 3f;
     [SerializeField] private float dodgeSpeed = 12f;
     [SerializeField] private float carSpeed = 15f;
+    [SerializeField] private AudioClip choqueCarro;
+    [SerializeField] private AudioSource carro;
+    [SerializeField] private TMP_Text tiempoCasa;
+    [SerializeField] private TMP_Text intentosCarro;
 
     private int lane = 0;
     private float target;
@@ -47,6 +52,9 @@ public class DrivingGame : Minigame
         base.Update(); 
 
         if (!juegoActi) return;
+
+        tiempoCasa.text = "Tiempo restante para llegar a casa: " + tiempoRestante.ToString("0F")+" Seg";
+        intentosCarro.text = "Choques permitidos: " + intentosRestantes.ToString() + "/3";
 
         MoversedeCarril();
         MoverseAdelante();
@@ -88,6 +96,8 @@ public class DrivingGame : Minigame
     public void ObstaculoHit()
     {
         if (!juegoActi) return;
+
+        carro.PlayOneShot(choqueCarro);
 
         Debug.Log("¡Has colisionado!");
         IntentosFallidos();

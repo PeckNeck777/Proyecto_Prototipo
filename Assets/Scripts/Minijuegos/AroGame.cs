@@ -16,6 +16,11 @@ public class AroGame : Minigame
     [SerializeField] private int escenariosCompletos;
     [SerializeField] private GameObject[] miniNiveles;
     [SerializeField] private TMP_Text textoTimer;
+    [SerializeField] private TMP_Text textoIntentos;
+    [SerializeField] private AudioClip wrongAnswer;
+    [SerializeField] private AudioClip correctAnswer;
+    [SerializeField] private AudioSource answer;
+
     private int indexEscen;
 
     public override void StartGame()
@@ -40,9 +45,10 @@ public class AroGame : Minigame
 
         if (textoTimer != null)
         {
-            textoTimer.text = Mathf.CeilToInt(tiempoRestante).ToString() + "s";
+            textoTimer.text = "Tiempo restante para fallar: " + Mathf.CeilToInt(tiempoRestante).ToString() + "s";
         }
 
+        textoIntentos.text = "Intentos restantes: " + intentosRestantes.ToString() + "/3";
 
         if (tiempoRestante <= 0)
         {
@@ -55,6 +61,8 @@ public class AroGame : Minigame
         if (!juegoActi) return;
 
         escenariosCompletos++;
+
+        answer.PlayOneShot(correctAnswer);
 
         if (escenariosCompletos >= 3)
         {
@@ -71,6 +79,7 @@ public class AroGame : Minigame
         if (!juegoActi) return;
 
         IntentosFallidos();
+        answer.PlayOneShot(wrongAnswer);
 
         if (intentosRestantes > 0)
         {

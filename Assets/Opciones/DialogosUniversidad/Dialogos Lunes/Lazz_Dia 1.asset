@@ -13,26 +13,37 @@ MonoBehaviour:
   m_Name: Lazz_Dia 1
   m_EditorClassIdentifier: Assembly-CSharp::Dialog
   conversation:
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: ...
+    voiceClip: {fileID: 0}
   - spaeker: Lazz Yass
     portrait: {fileID: 21300000, guid: 4f0626364d2c6334998e79333cac0c9c, type: 3}
     line: "\xA1Gracias a Dios es viernes! "
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Lazz\u2026  es Lunes\u2026 "
+    voiceClip: {fileID: 0}
   - spaeker: Lazz Yass
     portrait: {fileID: 21300000, guid: 4f0626364d2c6334998e79333cac0c9c, type: 3}
     line: "\xA1JUEPUTA LA TAREA! "
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: " Lazz\u2026 no has entregado nada\u2026 el profesor dijo que ya reprobaste
       el a\xF1o\u2026 otra vez\u2026 "
+    voiceClip: {fileID: 0}
   - spaeker: Lazz Yass
     portrait: {fileID: 21300000, guid: 4f0626364d2c6334998e79333cac0c9c, type: 3}
     line: "Ah\u2026  "
+    voiceClip: {fileID: 0}
   - spaeker: Lazz Yass
     portrait: {fileID: 21300000, guid: 4f0626364d2c6334998e79333cac0c9c, type: 3}
     line: "Otra raya m\xE1s al tigre\u2026"
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "(... \xBFComo?)"
+    voiceClip: {fileID: 0}
   opciones: []

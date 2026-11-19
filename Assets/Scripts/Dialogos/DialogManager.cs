@@ -23,6 +23,7 @@ public class DialogManager : MonoBehaviour
     [SerializeField] private TMP_Text currentText, textSpeaker;
     [SerializeField] private Image spritePortrait;
     [SerializeField] private GameObject dialogCanvas;
+    [SerializeField] private AudioSource audioCharcater;
 
     private InputAction interact;
     private int dialogIndex = 0;
@@ -30,6 +31,8 @@ public class DialogManager : MonoBehaviour
 
     [SerializeField] private Transform optionParent;
     [SerializeField] private GameObject optionPrefb;
+
+    [SerializeField] private PlayerController playerController;
 
     public bool CurrentlyInDialog { get { return currentInDialog; } set { currentInDialog = value; } }
 
@@ -79,6 +82,7 @@ public class DialogManager : MonoBehaviour
         if(dialogCanvas != null)
         {
             dialogCanvas.SetActive(true);
+            
         }
         
     }
@@ -88,6 +92,7 @@ public class DialogManager : MonoBehaviour
         if (dialogCanvas != null)
         {
             dialogCanvas.SetActive(false);
+            playerController.enabled = true;
         }
     }
 
@@ -100,7 +105,7 @@ public class DialogManager : MonoBehaviour
         currentInDialog = true;
         conversation = dialog.Conversation;
         dialogIndex = 0;
-
+        playerController.enabled = false;
         ClearOptions();
 
         if (conversation != null && conversation.Length > 0)
@@ -120,6 +125,11 @@ public class DialogManager : MonoBehaviour
         textSpeaker.text = speaker;
     }
 
+    public void SetVoice(AudioClip voice)
+    {
+        audioCharcater.clip = voice;
+    }
+
     public void SetPortrait(Sprite sprite)
     {
         if (spritePortrait != null)
@@ -134,6 +144,12 @@ public class DialogManager : MonoBehaviour
         SetText(unidad.Line);
         SetPortrait(unidad.Portrait);
         SetSpeaker(unidad.Speaker);
+        SetVoice(unidad.VoiceClip);
+
+        if(unidad.VoiceClip != null && audioCharcater != null)
+        {
+            audioCharcater.PlayOneShot(unidad.VoiceClip);
+        }
     }
 
     public void ResetDialogSystem()

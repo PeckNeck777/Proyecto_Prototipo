@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99b96955713899042b7125f4d9066314, type: 3}
+  m_Name: Jav_Dialogo_Jueves
+  m_EditorClassIdentifier: Assembly-CSharp::Dialog
+  conversation:
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: ...
+    voiceClip: {fileID: 0}
+  - spaeker: Jav A.B. Ean
+    portrait: {fileID: 21300000, guid: 09e6cc846509ec146bae7b516b5c5301, type: 3}
+    line: "Carajo\u2026 ya casi es viernes y apenas hay caf\xE9\u2026 no se si pueda
+      vivir sin eso "
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "Llevas a\xF1os soportando todo\u2026  "
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "Creo que estar\xE1s bien con un dia que no bebas"
+    voiceClip: {fileID: 0}
+  - spaeker: Jav A.B. Ean
+    portrait: {fileID: 21300000, guid: 09e6cc846509ec146bae7b516b5c5301, type: 3}
+    line: "Nah\u2026 no lo entender\xEDas\u2026"
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: "De seguro no\u2026 aunque en eso de estar jodida..."
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: Lo entiendo muy bien
+    voiceClip: {fileID: 0}
+  opciones: []

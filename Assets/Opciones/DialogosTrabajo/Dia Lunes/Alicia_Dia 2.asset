@@ -16,10 +16,13 @@ MonoBehaviour:
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: No te preocupes, reina. Se que no tienes buena memoria
+    voiceClip: {fileID: 8300000, guid: 5ebd2442fa625bc459619a0da94a4ee6, type: 3}
   - spaeker: Alicia Heimer
     portrait: {fileID: 21300000, guid: b2ced09482f683442aa936118b4fdf59, type: 3}
     line: "\xBFReina? Espera\u2026 \xBFDe que est\xE1bamos hablando?"
+    voiceClip: {fileID: 8300000, guid: 7f18c44c27419924fa5ccb8dc5f3bd6d, type: 3}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "No, nada\u2026 tranquila. "
+    voiceClip: {fileID: 8300000, guid: 59f4dd52ef6a29e4c8ae3990d72aba6d, type: 3}
   opciones: []

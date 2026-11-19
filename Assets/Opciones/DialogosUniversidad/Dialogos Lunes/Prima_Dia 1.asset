@@ -13,22 +13,31 @@ MonoBehaviour:
   m_Name: Prima_Dia 1
   m_EditorClassIdentifier: Assembly-CSharp::Dialog
   conversation:
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: ...
+    voiceClip: {fileID: 0}
   - spaeker: Prima Donna
     portrait: {fileID: 21300000, guid: 18886ddef4b8511469a8c5fb590c74ae, type: 3}
     line: "\xA1Vaya, Mizuki! Te ves tan cansada\u2026 tanto como si no quisieras
       estar aqu\xED\u2026"
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "No tienes idea\u2026"
+    voiceClip: {fileID: 0}
   - spaeker: Prima Donna
     portrait: {fileID: 21300000, guid: 18886ddef4b8511469a8c5fb590c74ae, type: 3}
     line: "En fin\u2026 "
+    voiceClip: {fileID: 0}
   - spaeker: Prima Donna
     portrait: {fileID: 21300000, guid: 18886ddef4b8511469a8c5fb590c74ae, type: 3}
     line: "Dejando de lado tus delirios suicidas\u2026"
+    voiceClip: {fileID: 0}
   - spaeker: Prima Donna
     portrait: {fileID: 21300000, guid: 18886ddef4b8511469a8c5fb590c74ae, type: 3}
     line: "\xBFC\xF3mo van las cosas con mi hermana en el trabajo? "
+    voiceClip: {fileID: 0}
   opciones:
   - {fileID: 11400000, guid: c4a898fd3a6ef724385b28e01a5a4757, type: 2}
   - {fileID: 11400000, guid: b2b14d21900dda14fbea20524a599305, type: 2}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca9f0a3ec70487a4bb404a4fd2e12dcd, type: 3}
+  m_Name: Molle_Option 1
+  m_EditorClassIdentifier: Assembly-CSharp::OptionDialog
+  optionText: "Sabes que no pasa nada, b\xFAho\u2026 mejor cu\xE9ntame de ese programa
+    de citas que tanto te gusta"
+  afectaAAlicia: 0
+  nuevoEstado: 0
+  claveDiario: 
+  rutaEspe: 1
+  dialog: {fileID: 11400000, guid: 3a51a5210b30aa048ae944c2983a43ba, type: 2}

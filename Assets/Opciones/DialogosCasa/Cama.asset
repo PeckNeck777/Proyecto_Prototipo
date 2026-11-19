@@ -15,20 +15,26 @@ MonoBehaviour:
   conversation:
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
-    line: .
+    line: ...
+    voiceClip: {fileID: 8300000, guid: 1d1f59ed3c9b21c4e83870a4b9e04af7, type: 3}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "S\xE1banas arrugadas la noche anterior\u2026"
+    voiceClip: {fileID: 8300000, guid: 1d1f59ed3c9b21c4e83870a4b9e04af7, type: 3}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Hacer la cama me toma 10 minutos\u2026  "
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "\xBFComo carajos lo aplazo tanto? "
+    voiceClip: {fileID: 8300000, guid: 52e4087fc9670424a8863ed1a05f69a1, type: 3}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Supongo que eso pasa cuando eres una perezosa de mierda\u2026 "
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "\u2026 O estas cansada por solo dormir 5 a 4 horas diarias"
+    voiceClip: {fileID: 8300000, guid: af66711d6cf574048a01cce0cd358b93, type: 3}
   opciones: []

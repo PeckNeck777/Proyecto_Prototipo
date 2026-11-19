@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 
 /*
@@ -7,27 +8,51 @@ using UnityEngine;
  *   del jugador en el mapa.
  * 
  */
+
+public enum EstadosAlicia
+{
+    NoHablado,
+    Invitada,
+    NoInvitada
+}
 public static class Stats 
 {
+    //Variables Stats
     static int energiaMental = 100;
     static int mascaraSocial = 100;
     static int voluntadDeVivir = 100;
-    static int escenaActual = 1;
-    static int diaActual = 1;
-    static int hora = 1;
-    static Vector3 posJugador;
 
+    //Variables Alicia
+
+    static EstadosAlicia estadoAlicia  = EstadosAlicia.NoHablado;
+
+    //Variables de Escena
+    static string ultimaEscena = "";
+
+    //Llaves
+    static string kMascaraSocial = "kMasc", kEnergiaMental = "kEnM", kVoluntadDeVivir = "kVV", kUltimaEscena = "kUltEs", kHabloConAlicia = "kAlicia";
+
+
+    //Cargar y modificar stats durante el jogo
     static public int EM { get => energiaMental; set => energiaMental = (Mathf.Clamp(value, 0, 100)); }
     static public int MS { get => mascaraSocial; set => mascaraSocial = (Mathf.Clamp(value, 0, 100)); }
     static public int VV { get => voluntadDeVivir; set => voluntadDeVivir = (Mathf.Clamp(value, 0, 100)); }
 
-    static public int EscenaActual { get => escenaActual; set => escenaActual = value; }
+    static public EstadosAlicia EstadoAlicia { get { return estadoAlicia; } set { estadoAlicia = value; } }
 
-    static public int DiaActual { get => diaActual; set => diaActual = value; }
+    static public string UltimaEscena { get { return ultimaEscena; } set {  ultimaEscena = value; } }  
 
-    static public int HoraActual { get => hora; set => hora = value; }
+    //Obtener las llaves para cargar y guardar datos
 
-    static public Vector3 PosJugador { get => posJugador; set => posJugador = value; }
+    static public string KMascaraSocial { get { return kMascaraSocial; } }
+
+    static public string KEnergiaMental { get { return kEnergiaMental; } }
+
+    static public string KVoluntadDeVivir { get { return kVoluntadDeVivir; } }
+
+    static public string KHabloAlicia { get {return kHabloConAlicia; } }
+
+    static public string KUltimaEscena { get {  return kUltimaEscena; } }   
 
     public static void ModificarEM(int cantidad)
     {

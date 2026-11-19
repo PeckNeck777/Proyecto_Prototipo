@@ -15,21 +15,27 @@ MonoBehaviour:
   conversation:
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
-    line: .
+    line: ...
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "La fuente principal donde cocin\xF3 la comida de casa\u2026 "
+    voiceClip: {fileID: 8300000, guid: a011e8ea6bb7e6443b98a7544926a594, type: 3}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Aunque solo uso 2 hornillas y las otras solo Dios sabe cu\xE1ndo se volver\xE1n
       a encender "
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Quiz\xE1s cuando cocine algo m\xE1s sofisticado\u2026 "
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Pero la sencillez de cocinar una Maruchan\u2026  "
+    voiceClip: {fileID: 8300000, guid: 80fae004112b15a41a4e2c6a4b85b64b, type: 3}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: 'No tiene precio '
+    voiceClip: {fileID: 8300000, guid: 6ae4e557f3689364db25402215a8a0e8, type: 3}
   opciones: []

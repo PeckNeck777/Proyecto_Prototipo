@@ -15,21 +15,27 @@ MonoBehaviour:
   conversation:
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
-    line: .
+    line: ...
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "El clima del refrigerador es\u2026 extremadamente calmante para mi\u2026 "
+    voiceClip: {fileID: 8300000, guid: a011e8ea6bb7e6443b98a7544926a594, type: 3}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "A veces solo meto la cabeza para sentir un fr\xEDo intenso\u2026 "
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Y otras veces me pregunto qu\xE9 tan r\xE1pido se descompondr\xE1 un cuerpo
       si lo meto aqu\xED\u2026"
+    voiceClip: {fileID: 8300000, guid: 52e4087fc9670424a8863ed1a05f69a1, type: 3}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Quiz\xE1s el triple de tiempo\u2026 no s\xE9 para qu\xE9 sirve esa informaci\xF3n\u2026 "
+    voiceClip: {fileID: 8300000, guid: 6ae4e557f3689364db25402215a8a0e8, type: 3}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Pero no est\xE1 de m\xE1s estar preparada. "
+    voiceClip: {fileID: 8300000, guid: 80fae004112b15a41a4e2c6a4b85b64b, type: 3}
   opciones: []

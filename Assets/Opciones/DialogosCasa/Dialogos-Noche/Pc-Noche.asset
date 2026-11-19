@@ -15,19 +15,24 @@ MonoBehaviour:
   conversation:
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
-    line: .
+    line: ...
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: Pantalla en negro. Veo mi propio reflejo en el cristal.
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Qu\xE9 asco de cara. Qu\xE9 asco de postura. Qu\xE9 asco de existencia."
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Buscaba mierdas raras en la ma\xF1ana para distraerme de lo pat\xE9tica
       que es mi vida..."
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Ahora ni la pantalla encendida me quita la sensaci\xF3n de que soy un
       desperdicio de espacio."
+    voiceClip: {fileID: 0}
   opciones: []

@@ -15,8 +15,8 @@ public class UIManager : MonoBehaviour
     [SerializeField] GameObject winScreen;
     [SerializeField] GameObject winScreenTrabajo;
     [SerializeField] GameObject gameOverScreen;
-    [SerializeField] TMP_Text textoControles;
-    [SerializeField] TMP_Text textoInstrucciones;
+    [SerializeField] GameObject textoControles;
+    [SerializeField] GameObject textoInstrucciones;
     [SerializeField] TMP_Text textoTareaTrabajo;
 
     private void Awake()
@@ -40,15 +40,15 @@ public class UIManager : MonoBehaviour
 
     public void CambiarTextoControles()
     {
-            textoControles.gameObject.SetActive(true);
-            textoInstrucciones.gameObject.SetActive(false);    
+            textoControles.SetActive(true);
+            textoInstrucciones.SetActive(false);    
 
     }
 
     public void CambairTectoInstrucciones()
     {
-        textoControles.gameObject.SetActive(false);
-        textoInstrucciones.gameObject.SetActive(true);
+        textoControles.SetActive(false);
+        textoInstrucciones.SetActive(true);
 
     }
 
@@ -72,11 +72,6 @@ public class UIManager : MonoBehaviour
     public void GameOver()
     {
         gameOverScreen.SetActive(true);
-    }
-
-    public void TooglePanel(GameObject go)
-    {
-        go.SetActive(!go.activeSelf);
     }
 
     public void TextoTarea()

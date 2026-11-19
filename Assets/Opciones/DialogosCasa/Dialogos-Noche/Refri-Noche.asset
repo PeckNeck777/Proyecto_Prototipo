@@ -15,20 +15,25 @@ MonoBehaviour:
   conversation:
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
-    line: .
+    line: ...
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Mirando la luz fr\xEDa..."
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "En la ma\xF1ana me preguntaba cu\xE1nto tardar\xEDa un cuerpo en descomponerse
       aqu\xED adentro..."
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Ahora solo me pregunto si yo me acomodar\xEDa bien hecha un ovillo entre
       las repisas."
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Ser\xEDa tan pac\xEDfico... congelarme en silencio hasta que la cabeza
       me deje de doler."
+    voiceClip: {fileID: 0}
   opciones: []

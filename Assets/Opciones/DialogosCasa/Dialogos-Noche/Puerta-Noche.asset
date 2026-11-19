@@ -15,13 +15,20 @@ MonoBehaviour:
   conversation:
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
+    line: ...
+    voiceClip: {fileID: 0}
+  - spaeker: Mizuki
+    portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: Trancada con tres cerrojos.
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Por un segundo pens\xE9 en no volver a abrirla jam\xE1s. Dejar que la
       puerta se pudra conmigo adentro."
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Pero ma\xF1ana tendr\xE9 que volver a cruzarla y ponerme la misma puta
       sonrisa de mentira para que nadie pregunte nada."
+    voiceClip: {fileID: 0}
   opciones: []

@@ -16,19 +16,25 @@ MonoBehaviour:
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: ...
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: Cierto, no prende.
+    voiceClip: {fileID: 8300000, guid: 8b7246966302f304395ad3af9b29015a, type: 3}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Porque a mi cerebro se le ocurri\xF3 la brillante idea de no recordarse..."
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "\xA1POR M\xC1S DE 2 A\xD1OS!"
+    voiceClip: {fileID: 8300000, guid: 587c5b9cc9f0c584f85c9ec70e9cde2c, type: 3}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: ...
+    voiceClip: {fileID: 8300000, guid: 1d1f59ed3c9b21c4e83870a4b9e04af7, type: 3}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Alg\xFAn d\xEDa lo har\xE9."
+    voiceClip: {fileID: 8300000, guid: 6ae4e557f3689364db25402215a8a0e8, type: 3}
   opciones: []

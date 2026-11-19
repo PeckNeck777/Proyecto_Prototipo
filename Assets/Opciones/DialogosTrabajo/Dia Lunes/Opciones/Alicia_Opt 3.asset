@@ -13,4 +13,8 @@ MonoBehaviour:
   m_Name: Alicia_Opt 3
   m_EditorClassIdentifier: Assembly-CSharp::OptionDialog
   optionText: "\xA1Agarrate los huevos e invitala de una vez!"
+  afectaAAlicia: 1
+  nuevoEstado: 1
+  claveDiario: 
+  rutaEspe: 1
   dialog: {fileID: 11400000, guid: e3374b2718be6e844b3beda5cea6d062, type: 2}

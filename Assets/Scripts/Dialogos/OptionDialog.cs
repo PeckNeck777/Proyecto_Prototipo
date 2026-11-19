@@ -18,6 +18,7 @@ public class OptionDialog : SOOpcion
 
     private void ActionBooth(DialogManager dMan)
     {
+        base.ComprobarAlicia();
         dMan.BootDialogManager(dialog);
     }
 }

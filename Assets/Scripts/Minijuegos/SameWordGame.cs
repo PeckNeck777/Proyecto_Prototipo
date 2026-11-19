@@ -15,6 +15,11 @@ public class SameWordGame : Minigame
     [Header("Informacion")]
     [SerializeField] private TMP_Text textoIngresar;
     [SerializeField] private TMP_InputField inputField;
+    [SerializeField] private TMP_Text timerRonda;
+    [SerializeField] private TMP_Text intentos;
+    [SerializeField] private AudioClip wrongAnswer;
+    [SerializeField] private AudioClip correctAnswer;
+    [SerializeField] private AudioSource answer;
 
     [Header("Ronda 1")]
     [SerializeField] private string[] Palabras1;
@@ -37,11 +42,13 @@ public class SameWordGame : Minigame
     public override void StartGame()
     {
         base.StartGame();
-        type = MinigameType.Tiempo;
+        type = MinigameType.Intentos;
 
         rondaActu = 1;
         intentosRestantes = 5;
         CargarRonda();
+
+        Time.timeScale = 0.0f;
     }
 
     // Update is called once per frame
@@ -49,12 +56,24 @@ public class SameWordGame : Minigame
     {
         base.Update();
 
-        if (tiempoRestante <= 0)
-        {
-            JuegoCompletado(false);
-        }
+
+        intentos.text = "Intentos restantes para esta frase: " + intentosRestantes.ToString();
+        timerRonda.text = "Tiempo restante: " + tiempoRestante.ToString("F0") + "Seg.";
     }
 
+
+    public override void TimeOut()
+    {
+        if (!juegoActi) return;
+
+        IntentosFallidos();
+        answer.PlayOneShot(wrongAnswer);
+
+        if (juegoActi)
+        {
+            CargarRonda();
+        }
+    }
     public void CargarRonda()
     {
         inputField.text = "";
@@ -80,7 +99,7 @@ public class SameWordGame : Minigame
         }
 
         tiempoRestante = duracion;
-
+        timerRonda.text = "Tiempo restante: " + tiempoRestante.ToString("F0") + "Seg.";
         textoIngresar.text = fraseEntrgada;
         inputField.ActivateInputField();
     }
@@ -96,8 +115,10 @@ public class SameWordGame : Minigame
         if(texto.Trim().ToUpper() == fraseEntrgada.Trim().ToUpper())
         {
             miniRonda++;
+            intentos.text = intentosRestantes.ToString();
+            answer.PlayOneShot(correctAnswer);
 
-            if(miniRonda > 5)
+            if (miniRonda >= 5)
             {
                 miniRonda = 0;
                 rondaActu++;
@@ -115,6 +136,8 @@ public class SameWordGame : Minigame
         else
         {
             IntentosFallidos();
+            intentos.text = "Intentos restantes para esta frase: " + intentosRestantes.ToString();
+            answer.PlayOneShot(wrongAnswer);
         }
     }
 }

@@ -15,25 +15,31 @@ MonoBehaviour:
   conversation:
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
-    line: .
+    line: ...
+    voiceClip: {fileID: 0}
   - spaeker: Maestro Logan Niza
     portrait: {fileID: 21300000, guid: 31c7bdf4c59771145b41354d826d2009, type: 3}
     line: "J\xF3venes \xA1Presten atenci\xF3n que esto viene en el examen! Bueno\u2026
       todos menos Lazz! "
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "(Carajo\u2026 con esa estatura y la postura tan r\xEDgida\u2026 solo falta
       que se vista como maestro de los 70 y lleve un puro) "
+    voiceClip: {fileID: 0}
   - spaeker: Maestro Logan Niza
     portrait: {fileID: 21300000, guid: 31c7bdf4c59771145b41354d826d2009, type: 3}
     line: "Entonces\u2026 como les iba diciendo\u2026! "
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: " (Mierda\u2026 si lo llamo Maistro Longaniza de seguro me expulsa de la
       carrera\u2026)"
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "(...pero ganas no me faltan\u2026)"
+    voiceClip: {fileID: 0}
   opciones:
   - {fileID: 11400000, guid: ba580a68c7e3eb44298cc874ffa386bb, type: 2}
   - {fileID: 11400000, guid: d1c9a7fb8b1aa374fbd1705570bad7e0, type: 2}

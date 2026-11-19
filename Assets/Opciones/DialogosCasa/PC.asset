@@ -15,33 +15,42 @@ MonoBehaviour:
   conversation:
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
-    line: .
+    line: ...
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Aqu\xED es donde paso las pocas horas de vida que me quedan\u2026 mirando
       una pantalla todo el d\xEDa "
+    voiceClip: {fileID: 8300000, guid: d3b0720dac402eb478dc6020baab2e7b, type: 3}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: 'Principalmente juego, o veo videos de gatitos o series de Ponies de colores '
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "\xBFQu\xE9? Es sorprendente que una serie as\xED tengan mejores valores
       que la sociedad actual, adem\xE1s mi dopamina lo agradece "
+    voiceClip: {fileID: 8300000, guid: 0aa7fb0a1f3eab14d8c2fac8b3b797af, type: 3}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Bueno\u2026 eso y ver porno extremadamente espec\xEDfico\u2026 la curiosidad
       anat\xF3mica no descansa\u2026 "
+    voiceClip: {fileID: 8300000, guid: 52e4087fc9670424a8863ed1a05f69a1, type: 3}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Y ahora gracias a eso me pregunto como se sentira hacerlo con un fantasma\u2026  "
+    voiceClip: {fileID: 8300000, guid: af66711d6cf574048a01cce0cd358b93, type: 3}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: "Genial, Mizuki. Autista y mal de la cabeza\u2026 \xBFQu\xE9 m\xE1s queda?
       \xBFSer furra?"
+    voiceClip: {fileID: 8300000, guid: ca0ebd92e3273cf439472039309de621, type: 3}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: ...
+    voiceClip: {fileID: 0}
   - spaeker: Mizuki
     portrait: {fileID: 21300000, guid: 3e2ff052315324a40ad96395d365d6e4, type: 3}
     line: 'Mierda. '
+    voiceClip: {fileID: 8300000, guid: 790269748b1bb2748b50a5034bac8946, type: 3}
   opciones: []
